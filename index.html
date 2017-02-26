@@ -1,0 +1,153 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Overview - etaoin API documentation</title>
+    <link rel="icon" href="static/favicon.png" />
+    <link rel="shortcut icon" href="static/favicon.png" />
+    <link rel="stylesheet" href="static/clojure.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="static/wiki.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="static/internal.css" type="text/css" media="all" />
+    <style>.menuWrapper{height: 36px;}</style>
+  </head>
+<!--
+This document was auto-generated from the source by the clojure autodoc system.
+To report errors or ask questions about the overall documentation structure, formatting,
+etc., contact Tom Faulhaber (google mail name: tomfaulhaber).
+For errors in the documentation of a particular namespace, contact the author of that
+namespace.
+-->
+  <body>
+    <div id="AllContentContainer">
+      <div id="Header">
+	<a href="index.html" id="Logo"><img src="static/clojure-icon.gif" width="100" height="100" alt="Clojure" /></a>
+	<h1><a href="index.html" id="page-header" title="page header title">etaoin</a></h1>
+      </div>
+      <div id="leftcolumn"><div style="text-align: center;"></div>
+<div class="menu">
+  <div class="WikiCustomNav WikiElement wiki">
+    <span class="toc-header"><span id="project-name">etaoin</span> <span id="version"></span> API</span><br />
+    <ul>
+      <li><a href="index.html" class="wiki_link">Overview</a></li>
+      <li><a href="api-index.html" class="wiki_link">API Index</a></li>
+    </ul>
+    <div class="NamespaceTOC">
+      <span class="toc-header">Namespaces</span>
+      <ul id="left-sidebar-list">
+        <li><a class="wiki_link" href="etaoin.api-api.html">etaoin.api</a></li><li><a class="wiki_link" href="etaoin.client-api.html">etaoin.client</a></li><li><a class="wiki_link" href="etaoin.keys-api.html">etaoin.keys</a></li><li><a class="wiki_link" href="etaoin.proc-api.html">etaoin.proc</a></li>
+      </ul>
+    </div>
+    
+    <a class="wiki_link" href="http://clojure.org">Clojure Home</a>
+  </div>
+</div>
+</div>
+      <div id="rightcolumn">
+	<div id="Content">
+	  <div class="contentBox"><div class="innerContentBox">
+              <div class="wiki wikiPage" id="content_view">
+                <div id="right-sidebar"><div id="toc">
+  <h1 class="nopad">Table of Contents</h1>
+  <div class="toc-section" style="margin-left: 1em;">
+    <a style="margin-top: 3px;" href="#etaoin.api">etaoin.api</a>
+    
+  </div><div class="toc-section" style="margin-left: 1em;">
+    <a style="margin-top: 3px;" href="#etaoin.client">etaoin.client</a>
+    
+  </div><div class="toc-section" style="margin-left: 1em;">
+    <a style="margin-top: 3px;" href="#etaoin.keys">etaoin.keys</a>
+    
+  </div><div class="toc-section" style="margin-left: 1em;">
+    <a style="margin-top: 3px;" href="#etaoin.proc">etaoin.proc</a>
+    
+  </div>
+</div>
+</div>
+                <div id="content-tag"><h1 id="toc0">API Overview - <span id="header-project">etaoin</span> <span id="header-version"></span></h1>
+<br />
+<div id="project-description">Pure Clojure Webdriver protocol implementation.</div>
+
+<br />
+<div id="namespace-entry">
+  <br />
+  <hr />
+  <h2 id="etaoin.api">etaoin.api</h2>
+  
+  <a id="api-link" href="etaoin.api-api.html">Detailed API documentation</a><br />
+  <pre id="namespace-docstr">
+The API below was written regarding to the source code
+of different Webdriver implementations. All of them partially differ
+from the official W3C specification.
+
+Chrome:
+<a href="https://github.com/bayandin/chromedriver/blob/master/client/command_executor.py">https://github.com/bayandin/chromedriver/blob/master/client/command_executor.py</a>
+<a href="https://github.com/bayandin/chromedriver/blob/master/client/webelement.py">https://github.com/bayandin/chromedriver/blob/master/client/webelement.py</a>
+
+Firefox (Geckodriver):
+<a href="https://github.com/mozilla/webdriver-rust/blob/master/src/httpapi.rs">https://github.com/mozilla/webdriver-rust/blob/master/src/httpapi.rs</a>
+
+Phantom.js (Ghostdriver)
+<a href="https://github.com/detro/ghostdriver/blob/master/src/request_handlers/session_request_handler.js">https://github.com/detro/ghostdriver/blob/master/src/request_handlers/session_request_handler.js</a>
+<a href="https://github.com/detro/ghostdriver/blob/master/src/request_handlers/webelement_request_handler.js">https://github.com/detro/ghostdriver/blob/master/src/request_handlers/webelement_request_handler.js</a>
+</pre>
+  
+  
+  
+  Contents:
+  <span id="var-link"><a id="var-tag" href="etaoin.api-api.html#etaoin.api/back">back</a> </span><span id="var-link"><a id="var-tag" href="etaoin.api-api.html#etaoin.api/defmethods">defmethods</a> </span><span id="var-link"><a id="var-tag" href="etaoin.api-api.html#etaoin.api/forward">forward</a> </span><span id="var-link"><a id="var-tag" href="etaoin.api-api.html#etaoin.api/get-element-size">get-element-size</a> </span><span id="var-link"><a id="var-tag" href="etaoin.api-api.html#etaoin.api/get-title">get-title</a> </span><span id="var-link"><a id="var-tag" href="etaoin.api-api.html#etaoin.api/get-url">get-url</a> </span><span id="var-link"><a id="var-tag" href="etaoin.api-api.html#etaoin.api/q-expand">q-expand</a> </span><span id="var-link"><a id="var-tag" href="etaoin.api-api.html#etaoin.api/q-xpath">q-xpath</a> </span><span id="var-link"><a id="var-tag" href="etaoin.api-api.html#etaoin.api/query">query</a> </span><span id="var-link"><a id="var-tag" href="etaoin.api-api.html#etaoin.api/random-port">random-port</a> </span><span id="var-link"><a id="var-tag" href="etaoin.api-api.html#etaoin.api/refresh">refresh</a> </span><span id="var-link"><a id="var-tag" href="etaoin.api-api.html#etaoin.api/wait">wait</a> </span><br />
+  
+</div><div id="namespace-entry">
+  <br />
+  <hr />
+  <h2 id="etaoin.client">etaoin.client</h2>
+  
+  <a id="api-link" href="etaoin.client-api.html">Detailed API documentation</a><br />
+  <pre id="namespace-docstr"></pre>
+  
+  
+  
+  Contents:
+  <br />
+  
+</div><div id="namespace-entry">
+  <br />
+  <hr />
+  <h2 id="etaoin.keys">etaoin.keys</h2>
+  
+  <a id="api-link" href="etaoin.keys-api.html">Detailed API documentation</a><br />
+  <pre id="namespace-docstr"><a href="https://www.w3.org/TR/webdriver/#keyboard-actions">https://www.w3.org/TR/webdriver/#keyboard-actions</a></pre>
+  
+  
+  
+  Contents:
+  <br />
+  
+</div><div id="namespace-entry">
+  <br />
+  <hr />
+  <h2 id="etaoin.proc">etaoin.proc</h2>
+  
+  <a id="api-link" href="etaoin.proc-api.html">Detailed API documentation</a><br />
+  <pre id="namespace-docstr"></pre>
+  
+  
+  
+  Contents:
+  <br />
+  
+</div>
+</div>
+              </div>
+            </div>
+          </div>
+	</div>
+	<div id="foot">
+	  <div id="copyright" style="text-align: center;">No copyright info </div>
+	</div>
+      </div>
+      <div id="DesignedBy">Logo &amp; site design by <a href="http://www.tomhickey.com" title="Visit Tom Hickey's website.">Tom Hickey</a>.<br />
+      Clojure auto-documentation system by Tom Faulhaber.</div>
+    </div>
+    <!-- /AllContentContainer -->
+  </body>
+
+</html>
