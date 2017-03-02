@@ -62,6 +62,12 @@ namespace.
       <a href="#etaoin.api/back" class="toc-entry-anchor">back</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/chrome" class="toc-entry-anchor">chrome</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/connect-driver" class="toc-entry-anchor">connect-driver</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/create-driver" class="toc-entry-anchor">create-driver</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
@@ -71,7 +77,13 @@ namespace.
       <a href="#etaoin.api/defmethods" class="toc-entry-anchor">defmethods</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/disconnect-driver" class="toc-entry-anchor">disconnect-driver</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/dispatch-driver" class="toc-entry-anchor">dispatch-driver</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/firefox" class="toc-entry-anchor">firefox</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/forward" class="toc-entry-anchor">forward</a>
@@ -98,6 +110,9 @@ namespace.
       <a href="#etaoin.api/go" class="toc-entry-anchor">go</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/phantom" class="toc-entry-anchor">phantom</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/q-expand" class="toc-entry-anchor">q-expand</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
@@ -116,10 +131,28 @@ namespace.
       <a href="#etaoin.api/run-driver" class="toc-entry-anchor">run-driver</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/safari" class="toc-entry-anchor">safari</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/switch-window" class="toc-entry-anchor">switch-window</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/wait" class="toc-entry-anchor">wait</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/with-chrome" class="toc-entry-anchor">with-chrome</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/with-driver" class="toc-entry-anchor">with-driver</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/with-firefox" class="toc-entry-anchor">with-firefox</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/with-phantom" class="toc-entry-anchor">with-phantom</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/with-safari" class="toc-entry-anchor">with-safari</a>
       
     </div>
   </div><div class="toc-section" style="margin-left: 1em;">
@@ -172,6 +205,32 @@ Phantom.js (Ghostdriver)
     <pre id="var-usage">Usage: (back driver)
 </pre>
     <pre id="var-docstr">Move backwards in a browser's history.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/chrome">chrome</h2>
+    <span id="var-type">var</span><br />
+    <pre id="var-usage"></pre>
+    <pre id="var-docstr">Launches Chrome driver. A shortcut for `boot-driver`.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/connect-driver">connect-driver</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (connect-driver driver &amp; [opt])
+</pre>
+    <pre id="var-docstr">Connects to a running Webdriver server.
+
+Creates a new session on Webdriver HTTP server. Sets the session to
+the driver. Returns the modified driver.</pre>
     <pre id="var-specs"></pre>
     
     
@@ -244,12 +303,38 @@ dispatch-vals, creates a new method.</pre>
   </div><div id="var-entry">
     <br />
     <hr />
+    <h2 id="etaoin.api/disconnect-driver">disconnect-driver</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (disconnect-driver driver)
+</pre>
+    <pre id="var-docstr">Disconnects from a running Webdriver server.
+
+Closes the current session that is stored in the driver. Removes the
+session from the driver instance. Returns modified driver.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    
+  </div><div id="var-entry">
+    <br />
+    <hr />
     <h2 id="etaoin.api/dispatch-driver">dispatch-driver</h2>
     <span id="var-type">function</span><br />
     <pre id="var-usage">Usage: (dispatch-driver driver &amp; _)
 </pre>
     <pre id="var-docstr">Returns the current driver's type. Used as dispatcher in
 multimethods.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/firefox">firefox</h2>
+    <span id="var-type">var</span><br />
+    <pre id="var-usage"></pre>
+    <pre id="var-docstr">Launches Firefox driver. A shortcut for `boot-driver`.</pre>
     <pre id="var-specs"></pre>
     
     
@@ -350,6 +435,17 @@ Example:
 
 (def ff (firefox))
 (go ff "<a href="http://google.com">http://google.com</a>")</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/phantom">phantom</h2>
+    <span id="var-type">var</span><br />
+    <pre id="var-usage"></pre>
+    <pre id="var-docstr">Launches Phantom.js driver. A shortcut for `boot-driver`.</pre>
     <pre id="var-specs"></pre>
     
     
@@ -460,14 +556,26 @@ Arguments:
 
 - `opt` is an optional map with the following possible parameters:
 
--- `:path` a string path to a binary file to launch. `default-paths`
-global map is used for lookup when not passed.
+-- `:path` is a string path to a binary file to
+launch. `default-paths` global map is used for lookup when not
+passed.
 
--- `:args` a vector of additional arguments passed when starting a
-process.
+-- `:args` is a vector of additional arguments passed when starting
+a process.
 
--- `:env` a map with system ENV variables. Keys are turned to
+-- `:env` is a map with system ENV variables. Keys are turned to
 upper-case strings.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/safari">safari</h2>
+    <span id="var-type">var</span><br />
+    <pre id="var-usage"></pre>
+    <pre id="var-docstr">Launches Safari driver. A shortcut for `boot-driver`.</pre>
     <pre id="var-specs"></pre>
     
     
@@ -493,6 +601,89 @@ upper-case strings.</pre>
        (wait sec)
 </pre>
     <pre id="var-docstr">Does nothing for N seconds.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/with-chrome">with-chrome</h2>
+    <span id="var-type">macro</span><br />
+    <pre id="var-usage">Usage: (with-chrome opt bind &amp; body)
+</pre>
+    <pre id="var-docstr">Performs the body with Chrome session. A shortcut for
+`with-driver`.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/with-driver">with-driver</h2>
+    <span id="var-type">macro</span><br />
+    <pre id="var-usage">Usage: (with-driver type opt bind &amp; body)
+</pre>
+    <pre id="var-docstr">Performs the body within a driver session.
+
+Launches a driver with of a given type. Binds the driver instance to
+a passed `bind` symbol. Executes the body once the driver has
+started. Shutdowns the driver finally (even if an exception
+occurred).
+
+Arguments:
+
+- `type` is a keyword what driver type to start.
+
+- `opt` is a map with driver's options. See `boot-driver` for more
+details.
+
+- `bind` is a symbol to bind a driver reference.
+
+Example:
+
+(with-driver :firefox {} driver
+  (go driver "<a href="http://example.com">http://example.com</a>"))</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/with-firefox">with-firefox</h2>
+    <span id="var-type">macro</span><br />
+    <pre id="var-usage">Usage: (with-firefox opt bind &amp; body)
+</pre>
+    <pre id="var-docstr">Performs the body with Firefox session. A shortcut for
+`with-driver`.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/with-phantom">with-phantom</h2>
+    <span id="var-type">macro</span><br />
+    <pre id="var-usage">Usage: (with-phantom opt bind &amp; body)
+</pre>
+    <pre id="var-docstr">Performs the body with Phantom.js session. A shortcut for
+`with-driver`.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/with-safari">with-safari</h2>
+    <span id="var-type">macro</span><br />
+    <pre id="var-usage">Usage: (with-safari opt bind &amp; body)
+</pre>
+    <pre id="var-docstr">Performs the body with Safari session. A shortcut for
+`with-driver`.</pre>
     <pre id="var-specs"></pre>
     
     

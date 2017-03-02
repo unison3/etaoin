@@ -28,6 +28,27 @@
    :namespace "etaoin.api",
    :wiki-url "/etaoin.api-api.html#etaoin.api/back"}
   {:raw-source-url nil,
+   :name "chrome",
+   :file "src/etaoin/api.clj",
+   :source-url nil,
+   :line 1377,
+   :var-type "var",
+   :arglists nil,
+   :doc "Launches Chrome driver. A shortcut for `boot-driver`.",
+   :namespace "etaoin.api",
+   :wiki-url "/etaoin.api-api.html#etaoin.api/chrome"}
+  {:raw-source-url nil,
+   :name "connect-driver",
+   :file "src/etaoin/api.clj",
+   :source-url nil,
+   :line 1333,
+   :var-type "function",
+   :arglists ([driver & [opt]]),
+   :doc
+   "Connects to a running Webdriver server.\n\nCreates a new session on Webdriver HTTP server. Sets the session to\nthe driver. Returns the modified driver.",
+   :namespace "etaoin.api",
+   :wiki-url "/etaoin.api-api.html#etaoin.api/connect-driver"}
+  {:raw-source-url nil,
    :name "create-driver",
    :file "src/etaoin/api.clj",
    :source-url nil,
@@ -61,6 +82,17 @@
    :namespace "etaoin.api",
    :wiki-url "/etaoin.api-api.html#etaoin.api/defmethods"}
   {:raw-source-url nil,
+   :name "disconnect-driver",
+   :file "src/etaoin/api.clj",
+   :source-url nil,
+   :line 1345,
+   :var-type "function",
+   :arglists ([driver]),
+   :doc
+   "Disconnects from a running Webdriver server.\n\nCloses the current session that is stored in the driver. Removes the\nsession from the driver instance. Returns modified driver.",
+   :namespace "etaoin.api",
+   :wiki-url "/etaoin.api-api.html#etaoin.api/disconnect-driver"}
+  {:raw-source-url nil,
    :name "dispatch-driver",
    :file "src/etaoin/api.clj",
    :source-url nil,
@@ -71,6 +103,16 @@
    "Returns the current driver's type. Used as dispatcher in\nmultimethods.",
    :namespace "etaoin.api",
    :wiki-url "/etaoin.api-api.html#etaoin.api/dispatch-driver"}
+  {:raw-source-url nil,
+   :name "firefox",
+   :file "src/etaoin/api.clj",
+   :source-url nil,
+   :line 1373,
+   :var-type "var",
+   :arglists nil,
+   :doc "Launches Firefox driver. A shortcut for `boot-driver`.",
+   :namespace "etaoin.api",
+   :wiki-url "/etaoin.api-api.html#etaoin.api/firefox"}
   {:raw-source-url nil,
    :name "forward",
    :file "src/etaoin/api.clj",
@@ -155,6 +197,16 @@
    :namespace "etaoin.api",
    :wiki-url "/etaoin.api-api.html#etaoin.api/go"}
   {:raw-source-url nil,
+   :name "phantom",
+   :file "src/etaoin/api.clj",
+   :source-url nil,
+   :line 1381,
+   :var-type "var",
+   :arglists nil,
+   :doc "Launches Phantom.js driver. A shortcut for `boot-driver`.",
+   :namespace "etaoin.api",
+   :wiki-url "/etaoin.api-api.html#etaoin.api/phantom"}
+  {:raw-source-url nil,
    :name "q-expand",
    :file "src/etaoin/api.clj",
    :source-url nil,
@@ -215,9 +267,19 @@
    :var-type "function",
    :arglists ([driver & [opt]]),
    :doc
-   "Runs a driver process locally.\n\nCreates a UNIX process with a Webdriver HTTP server. Host and port\nare taken from a `driver` argument. Updates a driver instance with\nnew fields with process information. Returns modified driver.\n\nArguments:\n\n- `driver` is an atom created with `create-driver` function.\n\n- `opt` is an optional map with the following possible parameters:\n\n-- `:path` a string path to a binary file to launch. `default-paths`\nglobal map is used for lookup when not passed.\n\n-- `:args` a vector of additional arguments passed when starting a\nprocess.\n\n-- `:env` a map with system ENV variables. Keys are turned to\nupper-case strings.",
+   "Runs a driver process locally.\n\nCreates a UNIX process with a Webdriver HTTP server. Host and port\nare taken from a `driver` argument. Updates a driver instance with\nnew fields with process information. Returns modified driver.\n\nArguments:\n\n- `driver` is an atom created with `create-driver` function.\n\n- `opt` is an optional map with the following possible parameters:\n\n-- `:path` is a string path to a binary file to\nlaunch. `default-paths` global map is used for lookup when not\npassed.\n\n-- `:args` is a vector of additional arguments passed when starting\na process.\n\n-- `:env` is a map with system ENV variables. Keys are turned to\nupper-case strings.",
    :namespace "etaoin.api",
    :wiki-url "/etaoin.api-api.html#etaoin.api/run-driver"}
+  {:raw-source-url nil,
+   :name "safari",
+   :file "src/etaoin/api.clj",
+   :source-url nil,
+   :line 1385,
+   :var-type "var",
+   :arglists nil,
+   :doc "Launches Safari driver. A shortcut for `boot-driver`.",
+   :namespace "etaoin.api",
+   :wiki-url "/etaoin.api-api.html#etaoin.api/safari"}
   {:raw-source-url nil,
    :name "switch-window",
    :file "src/etaoin/api.clj",
@@ -237,4 +299,59 @@
    :arglists ([driver sec] [sec]),
    :doc "Does nothing for N seconds.",
    :namespace "etaoin.api",
-   :wiki-url "/etaoin.api-api.html#etaoin.api/wait"})}
+   :wiki-url "/etaoin.api-api.html#etaoin.api/wait"}
+  {:raw-source-url nil,
+   :name "with-chrome",
+   :file "src/etaoin/api.clj",
+   :source-url nil,
+   :line 1426,
+   :var-type "macro",
+   :arglists ([opt bind & body]),
+   :doc
+   "Performs the body with Chrome session. A shortcut for\n`with-driver`.",
+   :namespace "etaoin.api",
+   :wiki-url "/etaoin.api-api.html#etaoin.api/with-chrome"}
+  {:raw-source-url nil,
+   :name "with-driver",
+   :file "src/etaoin/api.clj",
+   :source-url nil,
+   :line 1389,
+   :var-type "macro",
+   :arglists ([type opt bind & body]),
+   :doc
+   "Performs the body within a driver session.\n\nLaunches a driver with of a given type. Binds the driver instance to\na passed `bind` symbol. Executes the body once the driver has\nstarted. Shutdowns the driver finally (even if an exception\noccurred).\n\nArguments:\n\n- `type` is a keyword what driver type to start.\n\n- `opt` is a map with driver's options. See `boot-driver` for more\ndetails.\n\n- `bind` is a symbol to bind a driver reference.\n\nExample:\n\n(with-driver :firefox {} driver\n  (go driver \"http://example.com\"))",
+   :namespace "etaoin.api",
+   :wiki-url "/etaoin.api-api.html#etaoin.api/with-driver"}
+  {:raw-source-url nil,
+   :name "with-firefox",
+   :file "src/etaoin/api.clj",
+   :source-url nil,
+   :line 1419,
+   :var-type "macro",
+   :arglists ([opt bind & body]),
+   :doc
+   "Performs the body with Firefox session. A shortcut for\n`with-driver`.",
+   :namespace "etaoin.api",
+   :wiki-url "/etaoin.api-api.html#etaoin.api/with-firefox"}
+  {:raw-source-url nil,
+   :name "with-phantom",
+   :file "src/etaoin/api.clj",
+   :source-url nil,
+   :line 1433,
+   :var-type "macro",
+   :arglists ([opt bind & body]),
+   :doc
+   "Performs the body with Phantom.js session. A shortcut for\n`with-driver`.",
+   :namespace "etaoin.api",
+   :wiki-url "/etaoin.api-api.html#etaoin.api/with-phantom"}
+  {:raw-source-url nil,
+   :name "with-safari",
+   :file "src/etaoin/api.clj",
+   :source-url nil,
+   :line 1440,
+   :var-type "macro",
+   :arglists ([opt bind & body]),
+   :doc
+   "Performs the body with Safari session. A shortcut for\n`with-driver`.",
+   :namespace "etaoin.api",
+   :wiki-url "/etaoin.api-api.html#etaoin.api/with-safari"})}
