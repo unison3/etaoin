@@ -62,7 +62,13 @@ namespace.
       <a href="#etaoin.api/back" class="toc-entry-anchor">back</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/create-session" class="toc-entry-anchor">create-session</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/defmethods" class="toc-entry-anchor">defmethods</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/dispatch-driver" class="toc-entry-anchor">dispatch-driver</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/forward" class="toc-entry-anchor">forward</a>
@@ -71,10 +77,22 @@ namespace.
       <a href="#etaoin.api/get-element-size" class="toc-entry-anchor">get-element-size</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/get-status" class="toc-entry-anchor">get-status</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/get-title" class="toc-entry-anchor">get-title</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/get-url" class="toc-entry-anchor">get-url</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/get-window-handle" class="toc-entry-anchor">get-window-handle</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/get-window-handles" class="toc-entry-anchor">get-window-handles</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/go" class="toc-entry-anchor">go</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/q-expand" class="toc-entry-anchor">q-expand</a>
@@ -90,6 +108,9 @@ namespace.
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/refresh" class="toc-entry-anchor">refresh</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/switch-window" class="toc-entry-anchor">switch-window</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/wait" class="toc-entry-anchor">wait</a>
@@ -113,6 +134,9 @@ namespace.
 The API below was written regarding to the source code
 of different Webdriver implementations. All of them partially differ
 from the official W3C specification.
+
+The standard:
+<a href="https://www.w3.org/TR/webdriver/">https://www.w3.org/TR/webdriver/</a>
 
 Chrome:
 <a href="https://github.com/bayandin/chromedriver/blob/master/client/command_executor.py">https://github.com/bayandin/chromedriver/blob/master/client/command_executor.py</a>
@@ -149,11 +173,40 @@ Phantom.js (Ghostdriver)
   </div><div id="var-entry">
     <br />
     <hr />
+    <h2 id="etaoin.api/create-session">create-session</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (create-session driver)
+</pre>
+    <pre id="var-docstr">Initiates a new session for a driver. Opens a browser window as a
+side-effect. All the further requests are made within specific
+session. Some drivers may work with only one active session. Returns
+a long string identifier.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    
+  </div><div id="var-entry">
+    <br />
+    <hr />
     <h2 id="etaoin.api/defmethods">defmethods</h2>
     <span id="var-type">macro</span><br />
     <pre id="var-usage">Usage: (defmethods multifn dispatch-vals &amp; fn-tail)
 </pre>
-    <pre id="var-docstr">Declares multimethods in batch.</pre>
+    <pre id="var-docstr">Declares multimethods in batch. For each dispatch value from
+dispatch-vals, creates a new method.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/dispatch-driver">dispatch-driver</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (dispatch-driver driver &amp; _)
+</pre>
+    <pre id="var-docstr">Returns the current driver's type. Used as dispatcher in
+multimethods.</pre>
     <pre id="var-specs"></pre>
     
     
@@ -185,6 +238,19 @@ Phantom.js (Ghostdriver)
   </div><div id="var-entry">
     <br />
     <hr />
+    <h2 id="etaoin.api/get-status">get-status</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (get-status driver)
+</pre>
+    <pre id="var-docstr">Returns the current Webdriver status info. The content depends on
+specific driver.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    
+  </div><div id="var-entry">
+    <br />
+    <hr />
     <h2 id="etaoin.api/get-title">get-title</h2>
     <span id="var-type">function</span><br />
     <pre id="var-usage">Usage: (get-title driver)
@@ -202,6 +268,40 @@ Phantom.js (Ghostdriver)
     <pre id="var-usage">Usage: (get-url driver)
 </pre>
     <pre id="var-docstr">Returns the current URL string.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/get-window-handle">get-window-handle</h2>
+    <span id="var-type">multimethod</span><br />
+    <pre id="var-usage">No usage documentation available</pre>
+    <pre id="var-docstr">Returns the current active window identifier as a string.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/get-window-handles">get-window-handles</h2>
+    <span id="var-type">multimethod</span><br />
+    <pre id="var-usage">No usage documentation available</pre>
+    <pre id="var-docstr">Returns a vector of all window identifiers.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/go">go</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (go driver url)
+</pre>
+    <pre id="var-docstr">Open the URL the current window.</pre>
     <pre id="var-specs"></pre>
     
     
@@ -246,6 +346,7 @@ Phantom.js (Ghostdriver)
 A query might be:
 
 - a string, so the current browser's locator will be used. Examples:
+
 //div[@id='content'] for XPath,
 div.article for CSS selector
 
@@ -275,7 +376,7 @@ inside a div with id 'footer'.</pre>
     <span id="var-type">function</span><br />
     <pre id="var-usage">Usage: (random-port)
 </pre>
-    <pre id="var-docstr">Returns a random port skiping first 1024 ones.</pre>
+    <pre id="var-docstr">Returns a random port skiping the first 1024 ones.</pre>
     <pre id="var-specs"></pre>
     
     
@@ -288,6 +389,18 @@ inside a div with id 'footer'.</pre>
     <pre id="var-usage">Usage: (refresh driver)
 </pre>
     <pre id="var-docstr">Reload the current window.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/switch-window">switch-window</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (switch-window driver handle)
+</pre>
+    <pre id="var-docstr">Switches a browser to another window.</pre>
     <pre id="var-specs"></pre>
     
     
