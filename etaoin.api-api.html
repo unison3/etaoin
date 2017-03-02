@@ -62,6 +62,9 @@ namespace.
       <a href="#etaoin.api/back" class="toc-entry-anchor">back</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/create-driver" class="toc-entry-anchor">create-driver</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/create-session" class="toc-entry-anchor">create-session</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
@@ -108,6 +111,9 @@ namespace.
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/refresh" class="toc-entry-anchor">refresh</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/run-driver" class="toc-entry-anchor">run-driver</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/switch-window" class="toc-entry-anchor">switch-window</a>
@@ -166,6 +172,43 @@ Phantom.js (Ghostdriver)
     <pre id="var-usage">Usage: (back driver)
 </pre>
     <pre id="var-docstr">Move backwards in a browser's history.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/create-driver">create-driver</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (create-driver type &amp; [opt])
+</pre>
+    <pre id="var-docstr">Creates a new driver instance.
+
+Returns an atom that represents driver's state. Some functions, for
+example creating or deleting a session may change its state.
+
+The function does not start a process or open a window. It just
+creates an atom without side effects.
+
+Arguments:
+
+- `type` is a keyword determines what driver to use. The supported
+browsers are `:firefox`, `:chrome`, `:phantom` and `:safari`.
+
+- `opt` is a map with additional options for a driver. The supported
+options are:
+
+-- `:host` is a string with either IP or hostname. Use it if the
+server is run not locally but somethere in your network.
+
+-- `:port` is an integer value what HTTP port to use. It is taken
+from the `default-ports` global map if is not passed. If there is no
+port in that map, a random-generated port is used.
+
+-- `:locator` is a string determs what algorithm to use by default
+when finding elements on page. `default-locator` variable is used if
+not passed.</pre>
     <pre id="var-specs"></pre>
     
     
@@ -301,7 +344,12 @@ specific driver.</pre>
     <span id="var-type">function</span><br />
     <pre id="var-usage">Usage: (go driver url)
 </pre>
-    <pre id="var-docstr">Open the URL the current window.</pre>
+    <pre id="var-docstr">Open the URL the current window.
+
+Example:
+
+(def ff (firefox))
+(go ff "<a href="http://google.com">http://google.com</a>")</pre>
     <pre id="var-specs"></pre>
     
     
@@ -389,6 +437,37 @@ inside a div with id 'footer'.</pre>
     <pre id="var-usage">Usage: (refresh driver)
 </pre>
     <pre id="var-docstr">Reload the current window.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/run-driver">run-driver</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (run-driver driver &amp; [opt])
+</pre>
+    <pre id="var-docstr">Runs a driver process locally.
+
+Creates a UNIX process with a Webdriver HTTP server. Host and port
+are taken from a `driver` argument. Updates a driver instance with
+new fields with process information. Returns modified driver.
+
+Arguments:
+
+- `driver` is an atom created with `create-driver` function.
+
+- `opt` is an optional map with the following possible parameters:
+
+-- `:path` a string path to a binary file to launch. `default-paths`
+global map is used for lookup when not passed.
+
+-- `:args` a vector of additional arguments passed when starting a
+process.
+
+-- `:env` a map with system ENV variables. Keys are turned to
+upper-case strings.</pre>
     <pre id="var-specs"></pre>
     
     
