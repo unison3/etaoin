@@ -134,10 +134,16 @@ namespace.
       <a href="#etaoin.api/fill" class="toc-entry-anchor">fill</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/fill-active" class="toc-entry-anchor">fill-active</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/fill-el" class="toc-entry-anchor">fill-el</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/fill-human" class="toc-entry-anchor">fill-human</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/fill-multi" class="toc-entry-anchor">fill-multi</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/firefox" class="toc-entry-anchor">firefox</a>
@@ -386,7 +392,7 @@ Phantom.js (Ghostdriver)
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L365">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L365">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -406,7 +412,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1915">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1967">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -417,19 +423,21 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1944">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1996">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
     <h2 id="etaoin.api/clear">clear</h2>
     <span id="var-type">function</span><br />
-    <pre id="var-usage">Usage: (clear driver q)
+    <pre id="var-usage">Usage: (clear driver q &amp; more)
 </pre>
-    <pre id="var-docstr">Clears an element (input, textarea) found with a query.</pre>
+    <pre id="var-docstr">Clears an element (input, textarea) found with a query.
+
+0.1.6: multiple queries added.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1634">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1706">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -441,7 +449,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1627">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1699">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -453,7 +461,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L688">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L688">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -464,7 +472,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L230">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L230">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -475,11 +483,20 @@ Arguments:
     <pre id="var-docstr">Connects to a running Webdriver server.
 
 Creates a new session on Webdriver HTTP server. Sets the session to
-the driver. Returns the modified driver.</pre>
+the driver. Returns the modified driver.
+
+Arguments:
+
+- `opt`: an map of the following optional parameters:
+
+-- `:desired-capabilities` a map of desired capabilities your
+browser should support.
+
+See <a href="https://www.w3.org/TR/webdriver/#capabilities">https://www.w3.org/TR/webdriver/#capabilities</a></pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1886">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1925">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -491,7 +508,7 @@ the driver. Returns the modified driver.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1260">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1260">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -528,13 +545,13 @@ if not passed.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1806">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1843">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
     <h2 id="etaoin.api/create-session">create-session</h2>
     <span id="var-type">function</span><br />
-    <pre id="var-usage">Usage: (create-session driver)
+    <pre id="var-usage">Usage: (create-session driver &amp; [capabilities])
 </pre>
     <pre id="var-docstr">Initiates a new session for a driver. Opens a browser window as a
 side-effect. All the further requests are made within specific
@@ -543,7 +560,7 @@ a long string identifier.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L135">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L135">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -554,7 +571,7 @@ a long string identifier.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L35">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L35">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -565,7 +582,7 @@ a long string identifier.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L42">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L42">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -578,7 +595,7 @@ dispatch-vals, creates a new method.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L56">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L56">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -590,7 +607,7 @@ dispatch-vals, creates a new method.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1041">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1041">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -602,7 +619,7 @@ dispatch-vals, creates a new method.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1048">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1048">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -617,7 +634,7 @@ session from the driver instance. Returns modified driver.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1897">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1948">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -640,7 +657,7 @@ Returns a port as an integer.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1277">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1277">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -653,7 +670,7 @@ multimethods.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L73">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L73">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -670,7 +687,7 @@ Returns true or false.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1324">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1323">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -682,7 +699,7 @@ Returns true or false.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1354">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1353">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -700,7 +717,7 @@ sequence.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L701">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L701">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -732,7 +749,7 @@ Notes:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L651">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L651">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -744,19 +761,37 @@ Notes:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1372">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1371">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
     <h2 id="etaoin.api/fill">fill</h2>
     <span id="var-type">function</span><br />
-    <pre id="var-usage">Usage: (fill driver q text)
+    <pre id="var-usage">Usage: (fill driver q text &amp; more)
 </pre>
-    <pre id="var-docstr">Fills an element found with a query with a given text.</pre>
+    <pre id="var-docstr">Fills an element found with a query with a given text.
+
+0.1.6: now the rest parameters are supported. They will
+joined using "str":
+
+(fill driver :simple-input "foo" "baz" 1)
+;; fills the input with  "foobaz1"</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1622">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1638">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/fill-active">fill-active</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (fill-active driver text &amp; more)
+</pre>
+    <pre id="var-docstr">Fills an active element with keys.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1623">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -768,7 +803,7 @@ Notes:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1612">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1628">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -788,7 +823,24 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1673">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1686">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/fill-multi">fill-multi</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (fill-multi driver q-text)
+</pre>
+    <pre id="var-docstr">Fills multiple inputs in batch.
+
+`q-text` could be:
+
+- a map of {query -&gt; text}
+- a vector of [query1 text1 query2 text2 ...]</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1649">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -799,7 +851,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1940">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1992">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -811,7 +863,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L379">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L379">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -829,7 +881,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1010">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1010">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -851,7 +903,7 @@ Each cookie is a map with structure:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L990">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L990">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -883,7 +935,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L827">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L827">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -896,7 +948,7 @@ corresponding attributes.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L859">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L859">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -917,7 +969,7 @@ The result is a map with the following keys:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L771">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L771">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -949,7 +1001,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L879">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L879">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -962,7 +1014,7 @@ corresponding properties.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L911">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L911">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -974,7 +1026,7 @@ corresponding properties.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L735">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L735">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -986,7 +1038,7 @@ corresponding properties.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L950">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L950">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -998,7 +1050,7 @@ corresponding properties.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L941">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L941">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1012,7 +1064,7 @@ For `&lt;p class="foo"&gt;hello&lt;/p&gt;` it will be "hello" string.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L964">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L964">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1024,7 +1076,7 @@ For `&lt;p class="foo"&gt;hello&lt;/p&gt;` it will be "hello" string.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L955">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L955">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1036,7 +1088,7 @@ For `&lt;p class="foo"&gt;hello&lt;/p&gt;` it will be "hello" string.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L981">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L981">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1048,7 +1100,7 @@ For `&lt;p class="foo"&gt;hello&lt;/p&gt;` it will be "hello" string.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L972">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L972">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1060,7 +1112,7 @@ For `&lt;p class="foo"&gt;hello&lt;/p&gt;` it will be "hello" string.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1070">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1070">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1073,7 +1125,7 @@ specific driver.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L126">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L126">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1085,7 +1137,7 @@ specific driver.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L398">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L398">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1097,7 +1149,7 @@ specific driver.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L390">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L390">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1109,7 +1161,7 @@ specific driver.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L182">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L182">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1121,7 +1173,7 @@ specific driver.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L203">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L203">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1134,7 +1186,7 @@ specific driver.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L280">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L280">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1146,7 +1198,7 @@ specific driver.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L258">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L258">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1163,7 +1215,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L352">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L352">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1185,7 +1237,7 @@ Returns true or false.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L794">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L794">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1227,7 +1279,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1083">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1083">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1239,7 +1291,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1787">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1824">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1251,7 +1303,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L240">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L240">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1263,7 +1315,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L603">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L603">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1275,7 +1327,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L614">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L614">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1289,7 +1341,7 @@ or by `x` and `y` offset.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L625">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L625">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1300,7 +1352,7 @@ or by `x` and `y` offset.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1948">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L2000">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1312,7 +1364,7 @@ or by `x` and `y` offset.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1792">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1829">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1325,7 +1377,7 @@ or by `x` and `y` offset.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1722">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1759">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1339,7 +1391,7 @@ in case of unsupported clause.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L443">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L443">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1366,7 +1418,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L410">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L410">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1405,7 +1457,7 @@ Returns an element's unique identifier as a string.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L526">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L526">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1425,7 +1477,7 @@ Returns a vector of element identifiers.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L574">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L574">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1437,7 +1489,7 @@ Returns a vector of element identifiers.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1932">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1984">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1449,7 +1501,7 @@ Returns a vector of element identifiers.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L63">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L63">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1461,7 +1513,7 @@ Returns a vector of element identifiers.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L372">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L372">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1493,7 +1545,7 @@ upper-case strings.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1848">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1886">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1505,7 +1557,7 @@ upper-case strings.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1271">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1271">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1516,7 +1568,7 @@ upper-case strings.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1952">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L2004">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1535,7 +1587,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1694">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1731">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1554,7 +1606,7 @@ least `:name` and `:value` fields should be populated.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1025">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1025">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1568,7 +1620,7 @@ guaranteed.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L340">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L340">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1581,7 +1633,7 @@ guaranteed.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L318">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L318">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1594,7 +1646,7 @@ instance. Returns a modified driver.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1907">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1959">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1606,7 +1658,7 @@ instance. Returns a modified driver.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1643">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1718">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1618,7 +1670,7 @@ instance. Returns a modified driver.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L222">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L222">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1631,7 +1683,7 @@ instance. Returns a modified driver.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1427">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1426">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1649,7 +1701,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1577">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1578">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1661,7 +1713,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1594">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1595">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1673,7 +1725,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1589">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1590">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1685,7 +1737,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1599">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1600">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1698,7 +1750,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1993">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L2045">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1729,7 +1781,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1956">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L2008">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1742,7 +1794,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1986">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L2038">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1754,7 +1806,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L641">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L641">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1767,7 +1819,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L2000">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L2052">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1800,7 +1852,7 @@ Java `SimpleDateFormat` class manual for more patterns.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L1753">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L1790">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1841,7 +1893,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L83">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L83">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1854,7 +1906,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a2c61c4f691555c9b77ec3bb871d50b4037deb7/src/etaoin/api.clj#L2007">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/0a36f769436108e6b24d903183d0296515c0800b/src/etaoin/api.clj#L2059">Source</a>
   </div>
 </div>
 
