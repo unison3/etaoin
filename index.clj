@@ -4,7 +4,7 @@
    :name "etaoin.api",
    :wiki-url "https://igrishaev.github.io/etaoinetaoin.api-api.html",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj"}
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj"}
   {:doc nil,
    :name "etaoin.client",
    :wiki-url
@@ -23,11 +23,11 @@
    "https://github.com/igrishaev/etaoin/blob/96eb261742e5ec4fad818fb9ff4f8ead54494b09/src/etaoin/proc.clj"}),
  :vars
  ({:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "absent?",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1375",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1375",
    :line 1375,
    :var-type "var",
    :arglists nil,
@@ -36,11 +36,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/absent?"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "accept-alert",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1275",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1275",
    :line 1275,
    :var-type "multimethod",
    :arglists nil,
@@ -49,11 +49,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/accept-alert"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "back",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L387",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L387",
    :line 387,
    :var-type "function",
    :arglists ([driver]),
@@ -62,12 +62,12 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/back"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "boot-driver",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L2177",
-   :line 2177,
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L2209",
+   :line 2209,
    :var-type "function",
    :arglists ([type & [opt]]),
    :doc
@@ -76,12 +76,12 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/boot-driver"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "chrome",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L2205",
-   :line 2205,
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L2237",
+   :line 2237,
    :var-type "var",
    :arglists nil,
    :doc "Launches Chrome driver. A shortcut for `boot-driver`.",
@@ -89,11 +89,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/chrome"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "chrome?",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1340",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1340",
    :line 1340,
    :var-type "function",
    :arglists ([driver]),
@@ -102,11 +102,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/chrome?"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "clear",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1906",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1906",
    :line 1906,
    :var-type "function",
    :arglists ([driver q & more]),
@@ -116,11 +116,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/clear"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "clear-el",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1899",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1899",
    :line 1899,
    :var-type "function",
    :arglists ([driver el]),
@@ -129,11 +129,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/clear-el"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "click",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L713",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L713",
    :line 713,
    :var-type "function",
    :arglists ([driver q]),
@@ -142,11 +142,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/click"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "click-visible",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1670",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1670",
    :line 1670,
    :var-type "function",
    :arglists ([driver q & [opt]]),
@@ -156,11 +156,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/click-visible"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "close-window",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L251",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L251",
    :line 251,
    :var-type "multimethod",
    :arglists nil,
@@ -169,12 +169,12 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/close-window"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "connect-driver",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L2128",
-   :line 2128,
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L2160",
+   :line 2160,
    :var-type "function",
    :arglists ([driver & [opt]]),
    :doc
@@ -183,11 +183,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/connect-driver"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "connectable?",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1296",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1296",
    :line 1296,
    :var-type "function",
    :arglists ([host port]),
@@ -197,12 +197,12 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/connectable?"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "create-driver",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L2047",
-   :line 2047,
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L2079",
+   :line 2079,
    :var-type "function",
    :arglists ([type & [opt]]),
    :doc
@@ -211,11 +211,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/create-driver"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "create-session",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L143",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L143",
    :line 143,
    :var-type "function",
    :arglists ([driver & [capabilities]]),
@@ -225,11 +225,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/create-session"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "defmethods",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L64",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L64",
    :line 64,
    :var-type "macro",
    :arglists ([multifn dispatch-vals & fn-tail]),
@@ -239,11 +239,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/defmethods"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "delete-cookie",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1068",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1068",
    :line 1068,
    :var-type "function",
    :arglists ([driver cookie-name]),
@@ -252,11 +252,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/delete-cookie"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "delete-cookies",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1075",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1075",
    :line 1075,
    :var-type "multimethod",
    :arglists ([driver]),
@@ -265,12 +265,12 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/delete-cookies"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "disconnect-driver",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L2158",
-   :line 2158,
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L2190",
+   :line 2190,
    :var-type "function",
    :arglists ([driver]),
    :doc
@@ -279,11 +279,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/disconnect-driver"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "discover-port",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1313",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1313",
    :line 1313,
    :var-type "function",
    :arglists ([type host]),
@@ -293,11 +293,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/discover-port"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "dismiss-alert",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1258",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1258",
    :line 1258,
    :var-type "multimethod",
    :arglists nil,
@@ -307,11 +307,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/dismiss-alert"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "dispatch-driver",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L81",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L81",
    :line 81,
    :var-type "function",
    :arglists ([driver & _]),
@@ -321,11 +321,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/dispatch-driver"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "displayed-el?",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1378",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1378",
    :line 1378,
    :var-type "multimethod",
    :arglists nil,
@@ -335,11 +335,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/displayed-el?"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "displayed?",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1407",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1407",
    :line 1407,
    :var-type "function",
    :arglists ([driver q]),
@@ -348,11 +348,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/displayed?"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "double-click",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L727",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L727",
    :line 727,
    :var-type "function",
    :arglists ([driver q]),
@@ -362,11 +362,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/double-click"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "drag-and-drop",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L676",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L676",
    :line 676,
    :var-type "function",
    :arglists ([driver q-from q-to]),
@@ -376,11 +376,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/drag-and-drop"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "enabled?",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1428",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1428",
    :line 1428,
    :var-type "function",
    :arglists ([driver q]),
@@ -389,11 +389,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/enabled?"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "exists?",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1365",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1365",
    :line 1365,
    :var-type "function",
    :arglists ([driver q]),
@@ -403,11 +403,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/exists?"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "fill",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1838",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1838",
    :line 1838,
    :var-type "function",
    :arglists ([driver q text & more]),
@@ -417,11 +417,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/fill"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "fill-active",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1826",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1826",
    :line 1826,
    :var-type "function",
    :arglists ([driver text & more]),
@@ -430,11 +430,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/fill-active"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "fill-el",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1831",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1831",
    :line 1831,
    :var-type "function",
    :arglists ([driver el text & more]),
@@ -443,11 +443,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/fill-el"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "fill-human",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1886",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1886",
    :line 1886,
    :var-type "function",
    :arglists ([driver q text]),
@@ -457,11 +457,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/fill-human"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "fill-multi",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1849",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1849",
    :line 1849,
    :var-type "function",
    :arglists ([driver q-text]),
@@ -471,12 +471,12 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/fill-multi"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "firefox",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L2201",
-   :line 2201,
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L2233",
+   :line 2233,
    :var-type "var",
    :arglists nil,
    :doc "Launches Firefox driver. A shortcut for `boot-driver`.",
@@ -484,11 +484,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/firefox"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "firefox?",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1345",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1345",
    :line 1345,
    :var-type "function",
    :arglists ([driver]),
@@ -497,11 +497,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/firefox?"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "forward",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L401",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L401",
    :line 401,
    :var-type "function",
    :arglists ([driver]),
@@ -510,11 +510,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/forward"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "get-alert-text",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1237",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1237",
    :line 1237,
    :var-type "multimethod",
    :arglists nil,
@@ -524,11 +524,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/get-alert-text"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "get-cookie",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1037",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1037",
    :line 1037,
    :var-type "function",
    :arglists ([driver cookie-name]),
@@ -538,11 +538,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/get-cookie"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "get-cookies",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1017",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1017",
    :line 1017,
    :var-type "function",
    :arglists ([driver]),
@@ -552,11 +552,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/get-cookies"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "get-element-attr",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L853",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L853",
    :line 853,
    :var-type "function",
    :arglists ([driver q name]),
@@ -566,11 +566,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/get-element-attr"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "get-element-attrs",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L885",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L885",
    :line 885,
    :var-type "function",
    :arglists ([driver q & names]),
@@ -580,11 +580,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/get-element-attrs"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "get-element-box",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L797",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L797",
    :line 797,
    :var-type "function",
    :arglists ([driver q]),
@@ -594,11 +594,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/get-element-box"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "get-element-css",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L905",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L905",
    :line 905,
    :var-type "function",
    :arglists ([driver q name]),
@@ -608,11 +608,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/get-element-css"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "get-element-csss",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L937",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L937",
    :line 937,
    :var-type "function",
    :arglists ([driver q & names]),
@@ -622,11 +622,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/get-element-csss"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "get-element-size",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L761",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L761",
    :line 761,
    :var-type "function",
    :arglists ([driver q]),
@@ -636,11 +636,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/get-element-size"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "get-element-tag",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L977",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L977",
    :line 977,
    :var-type "function",
    :arglists ([driver q]),
@@ -649,11 +649,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/get-element-tag"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "get-element-tag-el",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L968",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L968",
    :line 968,
    :var-type "function",
    :arglists ([driver el]),
@@ -662,11 +662,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/get-element-tag-el"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "get-element-text",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L991",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L991",
    :line 991,
    :var-type "function",
    :arglists ([driver q]),
@@ -676,11 +676,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/get-element-text"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "get-element-text-el",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L982",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L982",
    :line 982,
    :var-type "function",
    :arglists ([driver el]),
@@ -689,11 +689,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/get-element-text-el"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "get-element-value",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1008",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1008",
    :line 1008,
    :var-type "function",
    :arglists ([driver q]),
@@ -702,11 +702,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/get-element-value"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "get-element-value-el",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L999",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L999",
    :line 999,
    :var-type "function",
    :arglists ([driver el]),
@@ -715,11 +715,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/get-element-value-el"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "get-source",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1097",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1097",
    :line 1097,
    :var-type "function",
    :arglists ([driver]),
@@ -728,11 +728,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/get-source"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "get-status",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L134",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L134",
    :line 134,
    :var-type "function",
    :arglists ([driver]),
@@ -742,11 +742,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/get-status"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "get-title",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L420",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L420",
    :line 420,
    :var-type "function",
    :arglists ([driver]),
@@ -755,11 +755,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/get-title"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "get-url",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L412",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L412",
    :line 412,
    :var-type "function",
    :arglists ([driver]),
@@ -768,11 +768,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/get-url"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "get-window-handle",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L191",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L191",
    :line 191,
    :var-type "multimethod",
    :arglists ([driver]),
@@ -781,11 +781,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/get-window-handle"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "get-window-handles",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L212",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L212",
    :line 212,
    :var-type "multimethod",
    :arglists ([driver]),
@@ -794,11 +794,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/get-window-handles"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "get-window-position",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L302",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L302",
    :line 302,
    :var-type "multimethod",
    :arglists ([driver]),
@@ -808,11 +808,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/get-window-position"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "get-window-size",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L280",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L280",
    :line 280,
    :var-type "multimethod",
    :arglists ([driver]),
@@ -822,11 +822,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/get-window-size"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "go",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L374",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L374",
    :line 374,
    :var-type "function",
    :arglists ([driver url]),
@@ -836,11 +836,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/go"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "has-alert?",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1477",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1477",
    :line 1477,
    :var-type "function",
    :arglists ([driver]),
@@ -849,11 +849,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/has-alert?"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "has-class?",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1469",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1469",
    :line 1469,
    :var-type "function",
    :arglists ([driver q class]),
@@ -862,11 +862,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/has-class?"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "has-no-alert?",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1484",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1484",
    :line 1484,
    :var-type "var",
    :arglists nil,
@@ -875,11 +875,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/has-no-alert?"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "has-no-class?",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1474",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1474",
    :line 1474,
    :var-type "var",
    :arglists nil,
@@ -888,11 +888,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/has-no-class?"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "has-text?",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1435",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1435",
    :line 1435,
    :var-type "function",
    :arglists ([driver text] [driver q text]),
@@ -902,12 +902,12 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/has-text?"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "headless",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L2217",
-   :line 2217,
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L2249",
+   :line 2249,
    :var-type "var",
    :arglists nil,
    :doc
@@ -916,11 +916,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/headless"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "headless?",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1360",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1360",
    :line 1360,
    :var-type "function",
    :arglists ([driver]),
@@ -929,11 +929,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/headless?"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "intersects?",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L820",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L820",
    :line 820,
    :var-type "function",
    :arglists ([driver q1 q2]),
@@ -943,11 +943,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/intersects?"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "invisible?",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1418",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1418",
    :line 1418,
    :var-type "var",
    :arglists nil,
@@ -956,11 +956,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/invisible?"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "js-execute",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1110",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1110",
    :line 1110,
    :var-type "multimethod",
    :arglists ([driver script & args]),
@@ -970,12 +970,12 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/js-execute"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "make-url",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L2024",
-   :line 2024,
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L2056",
+   :line 2056,
    :var-type "function",
    :arglists ([host port]),
    :doc "Makes an Webdriver URL from a host and port.",
@@ -983,11 +983,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/make-url"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "maximize",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L261",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L261",
    :line 261,
    :var-type "multimethod",
    :arglists ([driver]),
@@ -996,11 +996,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/maximize"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "mouse-btn-down",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L625",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L625",
    :line 625,
    :var-type "multimethod",
    :arglists ([driver]),
@@ -1009,11 +1009,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/mouse-btn-down"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "mouse-btn-up",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L637",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L637",
    :line 637,
    :var-type "multimethod",
    :arglists ([driver]),
@@ -1022,11 +1022,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/mouse-btn-up"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "mouse-move-to",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L649",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L649",
    :line 649,
    :var-type "multimethod",
    :arglists ([driver q] [driver x y]),
@@ -1036,12 +1036,12 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/mouse-move-to"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "phantom",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L2209",
-   :line 2209,
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L2241",
+   :line 2241,
    :var-type "var",
    :arglists nil,
    :doc "Launches Phantom.js driver. A shortcut for `boot-driver`.",
@@ -1049,11 +1049,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/phantom"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "phantom?",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1350",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1350",
    :line 1350,
    :var-type "function",
    :arglists ([driver]),
@@ -1062,12 +1062,12 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/phantom?"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "port-args",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L2029",
-   :line 2029,
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L2061",
+   :line 2061,
    :var-type "multimethod",
    :arglists ([driver]),
    :doc
@@ -1076,12 +1076,12 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/port-args"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "postmortem-handler",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1959",
-   :line 1959,
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1991",
+   :line 1991,
    :var-type "function",
    :arglists ([driver opt]),
    :doc
@@ -1090,11 +1090,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/postmortem-handler"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "q-expand",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L465",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L465",
    :line 465,
    :var-type "function",
    :arglists ([driver q]),
@@ -1104,11 +1104,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/q-expand"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "q-xpath",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L432",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L432",
    :line 432,
    :var-type "function",
    :arglists ([q]),
@@ -1118,11 +1118,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/q-xpath"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "query",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L548",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L548",
    :line 548,
    :var-type "function",
    :arglists ([driver q]),
@@ -1132,11 +1132,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/query"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "query-all",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L596",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L596",
    :line 596,
    :var-type "function",
    :arglists ([driver q]),
@@ -1146,12 +1146,12 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/query-all"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "quit",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L2193",
-   :line 2193,
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L2225",
+   :line 2225,
    :var-type "function",
    :arglists ([driver]),
    :doc "Closes the current session and stops the driver.",
@@ -1159,11 +1159,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/quit"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "random-port",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L71",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L71",
    :line 71,
    :var-type "function",
    :arglists ([]),
@@ -1172,11 +1172,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/random-port"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "refresh",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L394",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L394",
    :line 394,
    :var-type "function",
    :arglists ([driver]),
@@ -1185,12 +1185,12 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/refresh"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "run-driver",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L2090",
-   :line 2090,
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L2122",
+   :line 2122,
    :var-type "function",
    :arglists ([driver & [opt]]),
    :doc
@@ -1199,11 +1199,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/run-driver"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "running?",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1307",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1307",
    :line 1307,
    :var-type "function",
    :arglists ([driver]),
@@ -1212,12 +1212,12 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/running?"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "safari",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L2213",
-   :line 2213,
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L2245",
+   :line 2245,
    :var-type "var",
    :arglists nil,
    :doc "Launches Safari driver. A shortcut for `boot-driver`.",
@@ -1225,11 +1225,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/safari"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "safari?",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1355",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1355",
    :line 1355,
    :var-type "function",
    :arglists ([driver]),
@@ -1238,12 +1238,12 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/safari?"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "screenshot",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1931",
-   :line 1931,
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1963",
+   :line 1963,
    :var-type "multimethod",
    :arglists ([driver filename]),
    :doc
@@ -1252,11 +1252,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/screenshot"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "set-cookie",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1052",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1052",
    :line 1052,
    :var-type "function",
    :arglists ([driver cookie]),
@@ -1266,11 +1266,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/set-cookie"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "set-window-position",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L362",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L362",
    :line 362,
    :var-type "function",
    :arglists ([driver {:keys [x y]}] [driver x y]),
@@ -1280,11 +1280,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/set-window-position"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "set-window-size",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L340",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L340",
    :line 340,
    :var-type "function",
    :arglists ([driver {:keys [width height]}] [driver width height]),
@@ -1294,12 +1294,12 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/set-window-size"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "stop-driver",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L2169",
-   :line 2169,
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L2201",
+   :line 2201,
    :var-type "function",
    :arglists ([driver]),
    :doc
@@ -1308,12 +1308,12 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/stop-driver"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "submit",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1918",
-   :line 1918,
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1950",
+   :line 1950,
    :var-type "function",
    :arglists ([driver q]),
    :doc "Sends Enter button value to an element found with query.",
@@ -1321,11 +1321,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/submit"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "switch-window",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L232",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L232",
    :line 232,
    :var-type "multimethod",
    :arglists ([driver handle]),
@@ -1334,11 +1334,25 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/switch-window"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
+   :name "upload-file",
+   :file "src/etaoin/api.clj",
+   :source-url
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1918",
+   :line 1918,
+   :var-type "multimethod",
+   :arglists nil,
+   :doc
+   "Attaches a local file to a file input field.\n\nArguments:\n\n- `q` is a query term that refers to a file input;\n- `file` is either a string or java.io.File object\nthat references a local file. The file should exist.\n\nUnder the hood, it sends the file's name as a sequence of keys\nto the input.",
+   :namespace "etaoin.api",
+   :wiki-url
+   "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/upload-file"}
+  {:raw-source-url
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "visible?",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1412",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1412",
    :line 1412,
    :var-type "function",
    :arglists ([driver q]),
@@ -1347,11 +1361,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/visible?"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "wait",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1494",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1494",
    :line 1494,
    :var-type "function",
    :arglists ([driver sec] [sec]),
@@ -1360,11 +1374,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/wait"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "wait-absent",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1556",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1556",
    :line 1556,
    :var-type "function",
    :arglists ([driver q & [opt]]),
@@ -1374,11 +1388,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/wait-absent"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "wait-disabled",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1608",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1608",
    :line 1608,
    :var-type "function",
    :arglists ([driver q & [opt]]),
@@ -1388,11 +1402,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/wait-disabled"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "wait-enabled",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1596",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1596",
    :line 1596,
    :var-type "function",
    :arglists ([driver q & [opt]]),
@@ -1402,11 +1416,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/wait-enabled"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "wait-exists",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1544",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1544",
    :line 1544,
    :var-type "function",
    :arglists ([driver q & [opt]]),
@@ -1416,11 +1430,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/wait-exists"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "wait-has-alert",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1620",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1620",
    :line 1620,
    :var-type "function",
    :arglists ([driver & [opt]]),
@@ -1430,11 +1444,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/wait-has-alert"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "wait-has-class",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1648",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1648",
    :line 1648,
    :var-type "function",
    :arglists ([driver q class & [opt]]),
@@ -1444,11 +1458,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/wait-has-class"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "wait-has-text",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1632",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1632",
    :line 1632,
    :var-type "function",
    :arglists ([driver q text & [opt]]),
@@ -1458,11 +1472,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/wait-has-text"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "wait-invisible",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1584",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1584",
    :line 1584,
    :var-type "function",
    :arglists ([driver q & [opt]]),
@@ -1472,11 +1486,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/wait-invisible"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "wait-predicate",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1510",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1510",
    :line 1510,
    :var-type "function",
    :arglists ([pred] [pred opt]),
@@ -1486,11 +1500,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/wait-predicate"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "wait-visible",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1570",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1570",
    :line 1570,
    :var-type "function",
    :arglists ([driver q & [opt]]),
@@ -1500,11 +1514,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/wait-visible"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "when-chrome",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1775",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1775",
    :line 1775,
    :var-type "macro",
    :arglists ([driver & body]),
@@ -1514,11 +1528,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/when-chrome"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "when-firefox",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1792",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1792",
    :line 1792,
    :var-type "macro",
    :arglists ([driver & body]),
@@ -1527,11 +1541,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/when-firefox"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "when-headless",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1802",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1802",
    :line 1802,
    :var-type "macro",
    :arglists ([driver & body]),
@@ -1540,11 +1554,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/when-headless"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "when-not-chrome",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1744",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1744",
    :line 1744,
    :var-type "macro",
    :arglists ([driver & body]),
@@ -1553,11 +1567,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/when-not-chrome"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "when-not-firefox",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1754",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1754",
    :line 1754,
    :var-type "macro",
    :arglists ([driver & body]),
@@ -1566,11 +1580,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/when-not-firefox"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "when-not-headless",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1764",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1764",
    :line 1764,
    :var-type "macro",
    :arglists ([driver & body]),
@@ -1579,11 +1593,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/when-not-headless"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "when-not-phantom",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1749",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1749",
    :line 1749,
    :var-type "macro",
    :arglists ([driver & body]),
@@ -1592,11 +1606,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/when-not-phantom"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "when-not-safari",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1759",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1759",
    :line 1759,
    :var-type "macro",
    :arglists ([driver & body]),
@@ -1605,11 +1619,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/when-not-safari"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "when-phantom",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1787",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1787",
    :line 1787,
    :var-type "macro",
    :arglists ([driver & body]),
@@ -1618,11 +1632,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/when-phantom"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "when-predicate",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1769",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1769",
    :line 1769,
    :var-type "macro",
    :arglists ([predicate & body]),
@@ -1631,11 +1645,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/when-predicate"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "when-safari",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1797",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1797",
    :line 1797,
    :var-type "macro",
    :arglists ([driver & body]),
@@ -1644,12 +1658,12 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/when-safari"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "with-chrome",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L2258",
-   :line 2258,
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L2290",
+   :line 2290,
    :var-type "macro",
    :arglists ([opt bind & body]),
    :doc
@@ -1658,12 +1672,12 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/with-chrome"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "with-driver",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L2221",
-   :line 2221,
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L2253",
+   :line 2253,
    :var-type "macro",
    :arglists ([type opt bind & body]),
    :doc
@@ -1672,12 +1686,12 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/with-driver"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "with-firefox",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L2251",
-   :line 2251,
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L2283",
+   :line 2283,
    :var-type "macro",
    :arglists ([opt bind & body]),
    :doc
@@ -1686,12 +1700,12 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/with-firefox"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "with-headless",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L2279",
-   :line 2279,
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L2311",
+   :line 2311,
    :var-type "macro",
    :arglists ([opt bind & body]),
    :doc
@@ -1700,11 +1714,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/with-headless"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "with-mouse-btn",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L666",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L666",
    :line 666,
    :var-type "macro",
    :arglists ([driver & body]),
@@ -1713,12 +1727,12 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/with-mouse-btn"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "with-phantom",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L2265",
-   :line 2265,
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L2297",
+   :line 2297,
    :var-type "macro",
    :arglists ([opt bind & body]),
    :doc
@@ -1727,12 +1741,12 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/with-phantom"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "with-postmortem",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1990",
-   :line 1990,
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L2022",
+   :line 2022,
    :var-type "macro",
    :arglists ([driver opt & body]),
    :doc
@@ -1741,11 +1755,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/with-postmortem"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "with-resp",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L91",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L91",
    :line 91,
    :var-type "macro",
    :arglists ([driver method path data result & body]),
@@ -1755,12 +1769,12 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/with-resp"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "with-safari",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L2272",
-   :line 2272,
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L2304",
+   :line 2304,
    :var-type "macro",
    :arglists ([opt bind & body]),
    :doc
@@ -1769,11 +1783,11 @@
    :wiki-url
    "https://igrishaev.github.io/etaoin/etaoin.api-api.html#etaoin.api/with-safari"}
   {:raw-source-url
-   "https://github.com/igrishaev/etaoin/raw/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj",
+   "https://github.com/igrishaev/etaoin/raw/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj",
    :name "with-wait",
    :file "src/etaoin/api.clj",
    :source-url
-   "https://github.com/igrishaev/etaoin/blob/23b7517eebc08af7e5c0fbc4ba0cb012d2248de9/src/etaoin/api.clj#L1501",
+   "https://github.com/igrishaev/etaoin/blob/d97f4fff9bcb90e0bc6065ae58abf2efc4a2e389/src/etaoin/api.clj#L1501",
    :line 1501,
    :var-type "macro",
    :arglists ([n & body]),
