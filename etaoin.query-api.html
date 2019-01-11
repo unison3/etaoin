@@ -1,7 +1,7 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>etaoin.keys - Etaoin API documentation</title>
+    <title>etaoin.query - Etaoin API documentation</title>
     <link rel="icon" href="static/favicon.png" />
     <link rel="shortcut icon" href="static/favicon.png" />
     <link rel="stylesheet" href="static/clojure.css" type="text/css" media="all" />
@@ -54,33 +54,83 @@ namespace.
     <a style="margin-top: 3px;" href="#"></a>
     
   </div><div class="toc-section" style="margin-left: 1em;">
-    <a style="margin-top: 3px;" href="#"></a>
-    
+    <a style="margin-top: 3px;" href="#type-section">Types</a>
+    <div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.query/Query" class="toc-entry-anchor">Query</a>
+      
+    </div>
   </div><div class="toc-section" style="margin-left: 1em;">
-    <a style="margin-top: 3px;" href="#"></a>
-    
+    <a style="margin-top: 3px;" href="#var-section">Vars and Functions</a>
+    <div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.query/-&gt;Query" class="toc-entry-anchor">-&gt;Query</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.query/map-&gt;Query" class="toc-entry-anchor">map-&gt;Query</a>
+      
+    </div>
   </div><div class="toc-section" style="margin-left: 1em;">
     <a style="margin-top: 3px;" href="#"></a>
     
   </div>
 </div>
 </div>
-                <div id="content-tag"><h1 id="overview">API for <span id="etaoin.keys">etaoin.keys</span>
+                <div id="content-tag"><h1 id="overview">API for <span id="etaoin.query">etaoin.query</span>
   - <span id="header-project">Etaoin</span> <span id="header-version"></span>
   </h1>
 
-<br />Full namespace name: <span id="long-name">etaoin.keys</span>
+<br />Full namespace name: <span id="long-name">etaoin.query</span>
 <p></p>
 <h2>Overview</h2>
 
-<pre id="namespace-docstr"><a href="https://www.w3.org/TR/webdriver/#keyboard-actions">https://www.w3.org/TR/webdriver/#keyboard-actions</a></pre>
+<pre id="namespace-docstr">A module to deal with querying elements.</pre>
 
 
 <br />
 
 
-
-
+<div id="type-section">
+  <p></p>
+  <h2>Types</h2>
+  <div id="type-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.query/Query">Query</h2>
+    <span id="type-type">record</span><br />
+    <pre id="type-docstr"></pre>
+    Fields: <span id="type-fields">[locator term]</span><br />
+    Protocols: <span id="type-protocols"></span><br />
+    Interfaces: <span id="type-interfaces">clojure.lang.IHashEq, clojure.lang.IKeywordLookup, clojure.lang.ILookup, clojure.lang.IObj, clojure.lang.IPersistentMap, java.io.Serializable, java.util.Map</span><br />
+  </div>
+</div>
+<div id="var-section">
+  <p></p>
+  <h2>Public Variables and Functions</h2>
+  <div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.query/-&gt;Query">-&gt;Query</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (-&gt;Query locator term)
+</pre>
+    <pre id="var-docstr">Positional factory function for class etaoin.query.Query.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/e246d9677caa88a6690709335adacb35b759f3b5/src/etaoin/query.clj#L10">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.query/map-&gt;Query">map-&gt;Query</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (map-&gt;Query m#)
+</pre>
+    <pre id="var-docstr">Factory function for class etaoin.query.Query, taking a map of keywords to field values.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/e246d9677caa88a6690709335adacb35b759f3b5/src/etaoin/query.clj#L10">Source</a>
+  </div>
+</div>
 
 
 </div>

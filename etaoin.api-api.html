@@ -33,7 +33,7 @@ namespace.
     <div class="NamespaceTOC">
       <span class="toc-header">Namespaces</span>
       <ul id="left-sidebar-list">
-        <li><a class="wiki_link" href="etaoin.api-api.html">etaoin.api</a></li><li><a class="wiki_link" href="etaoin.client-api.html">etaoin.client</a></li><li><a class="wiki_link" href="etaoin.driver-api.html">etaoin.driver</a></li><li><a class="wiki_link" href="etaoin.keys-api.html">etaoin.keys</a></li><li><a class="wiki_link" href="etaoin.proc-api.html">etaoin.proc</a></li><li><a class="wiki_link" href="etaoin.util-api.html">etaoin.util</a></li>
+        <li><a class="wiki_link" href="etaoin.api-api.html">etaoin.api</a></li><li><a class="wiki_link" href="etaoin.client-api.html">etaoin.client</a></li><li><a class="wiki_link" href="etaoin.driver-api.html">etaoin.driver</a></li><li><a class="wiki_link" href="etaoin.keys-api.html">etaoin.keys</a></li><li><a class="wiki_link" href="etaoin.legacy-api.html">etaoin.legacy</a></li><li><a class="wiki_link" href="etaoin.proc-api.html">etaoin.proc</a></li><li><a class="wiki_link" href="etaoin.query-api.html">etaoin.query</a></li><li><a class="wiki_link" href="etaoin.util-api.html">etaoin.util</a></li><li><a class="wiki_link" href="etaoin.xpath-api.html">etaoin.xpath</a></li>
       </ul>
     </div>
     
@@ -71,7 +71,16 @@ namespace.
       <a href="#etaoin.api/boot-driver" class="toc-entry-anchor">boot-driver</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/child" class="toc-entry-anchor">child</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/children" class="toc-entry-anchor">children</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/chrome" class="toc-entry-anchor">chrome</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/chrome-headless" class="toc-entry-anchor">chrome-headless</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/chrome?" class="toc-entry-anchor">chrome?</a>
@@ -128,13 +137,22 @@ namespace.
       <a href="#etaoin.api/displayed?" class="toc-entry-anchor">displayed?</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/doto-wait" class="toc-entry-anchor">doto-wait</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/double-click" class="toc-entry-anchor">double-click</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/drag-and-drop" class="toc-entry-anchor">drag-and-drop</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/el-&gt;ref" class="toc-entry-anchor">el-&gt;ref</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/enabled?" class="toc-entry-anchor">enabled?</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/execute" class="toc-entry-anchor">execute</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/exists?" class="toc-entry-anchor">exists?</a>
@@ -156,6 +174,9 @@ namespace.
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/firefox" class="toc-entry-anchor">firefox</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/firefox-headless" class="toc-entry-anchor">firefox-headless</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/firefox?" class="toc-entry-anchor">firefox?</a>
@@ -188,6 +209,18 @@ namespace.
       <a href="#etaoin.api/get-element-csss" class="toc-entry-anchor">get-element-csss</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/get-element-inner-html" class="toc-entry-anchor">get-element-inner-html</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/get-element-inner-html-el" class="toc-entry-anchor">get-element-inner-html-el</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/get-element-properties" class="toc-entry-anchor">get-element-properties</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/get-element-property" class="toc-entry-anchor">get-element-property</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/get-element-size" class="toc-entry-anchor">get-element-size</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
@@ -206,7 +239,25 @@ namespace.
       <a href="#etaoin.api/get-element-value" class="toc-entry-anchor">get-element-value</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
-      <a href="#etaoin.api/get-element-value-el" class="toc-entry-anchor">get-element-value-el</a>
+      <a href="#etaoin.api/get-hash" class="toc-entry-anchor">get-hash</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/get-implicit-timeout" class="toc-entry-anchor">get-implicit-timeout</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/get-log-types" class="toc-entry-anchor">get-log-types</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/get-logs" class="toc-entry-anchor">get-logs</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/get-page-load-timeout" class="toc-entry-anchor">get-page-load-timeout</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/get-script-timeout" class="toc-entry-anchor">get-script-timeout</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/get-scroll" class="toc-entry-anchor">get-scroll</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/get-source" class="toc-entry-anchor">get-source</a>
@@ -251,9 +302,6 @@ namespace.
       <a href="#etaoin.api/has-text?" class="toc-entry-anchor">has-text?</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
-      <a href="#etaoin.api/headless" class="toc-entry-anchor">headless</a>
-      
-    </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/headless?" class="toc-entry-anchor">headless?</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
@@ -261,6 +309,12 @@ namespace.
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/invisible?" class="toc-entry-anchor">invisible?</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/join-path" class="toc-entry-anchor">join-path</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/js-async" class="toc-entry-anchor">js-async</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/js-execute" class="toc-entry-anchor">js-execute</a>
@@ -290,12 +344,6 @@ namespace.
       <a href="#etaoin.api/postmortem-handler" class="toc-entry-anchor">postmortem-handler</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
-      <a href="#etaoin.api/q-expand" class="toc-entry-anchor">q-expand</a>
-      
-    </div><div class="toc-entry" style="margin-left: 1em;">
-      <a href="#etaoin.api/q-xpath" class="toc-entry-anchor">q-xpath</a>
-      
-    </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/query" class="toc-entry-anchor">query</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
@@ -303,9 +351,6 @@ namespace.
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/quit" class="toc-entry-anchor">quit</a>
-      
-    </div><div class="toc-entry" style="margin-left: 1em;">
-      <a href="#etaoin.api/random-port" class="toc-entry-anchor">random-port</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/refresh" class="toc-entry-anchor">refresh</a>
@@ -326,7 +371,49 @@ namespace.
       <a href="#etaoin.api/screenshot" class="toc-entry-anchor">screenshot</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/scroll" class="toc-entry-anchor">scroll</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/scroll-bottom" class="toc-entry-anchor">scroll-bottom</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/scroll-by" class="toc-entry-anchor">scroll-by</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/scroll-down" class="toc-entry-anchor">scroll-down</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/scroll-left" class="toc-entry-anchor">scroll-left</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/scroll-offset" class="toc-entry-anchor">scroll-offset</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/scroll-query" class="toc-entry-anchor">scroll-query</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/scroll-right" class="toc-entry-anchor">scroll-right</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/scroll-top" class="toc-entry-anchor">scroll-top</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/scroll-up" class="toc-entry-anchor">scroll-up</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/set-cookie" class="toc-entry-anchor">set-cookie</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/set-hash" class="toc-entry-anchor">set-hash</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/set-implicit-timeout" class="toc-entry-anchor">set-implicit-timeout</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/set-page-load-timeout" class="toc-entry-anchor">set-page-load-timeout</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/set-script-timeout" class="toc-entry-anchor">set-script-timeout</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/set-window-position" class="toc-entry-anchor">set-window-position</a>
@@ -339,6 +426,24 @@ namespace.
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/submit" class="toc-entry-anchor">submit</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/supports-logs?" class="toc-entry-anchor">supports-logs?</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/switch-frame" class="toc-entry-anchor">switch-frame</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/switch-frame*" class="toc-entry-anchor">switch-frame*</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/switch-frame-first" class="toc-entry-anchor">switch-frame-first</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/switch-frame-parent" class="toc-entry-anchor">switch-frame-parent</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/switch-frame-top" class="toc-entry-anchor">switch-frame-top</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/switch-window" class="toc-entry-anchor">switch-window</a>
@@ -419,13 +524,19 @@ namespace.
       <a href="#etaoin.api/with-chrome" class="toc-entry-anchor">with-chrome</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/with-chrome-headless" class="toc-entry-anchor">with-chrome-headless</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/with-driver" class="toc-entry-anchor">with-driver</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/with-firefox" class="toc-entry-anchor">with-firefox</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
-      <a href="#etaoin.api/with-headless" class="toc-entry-anchor">with-headless</a>
+      <a href="#etaoin.api/with-firefox-headless" class="toc-entry-anchor">with-firefox-headless</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.api/with-frame" class="toc-entry-anchor">with-frame</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/with-mouse-btn" class="toc-entry-anchor">with-mouse-btn</a>
@@ -437,10 +548,10 @@ namespace.
       <a href="#etaoin.api/with-postmortem" class="toc-entry-anchor">with-postmortem</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
-      <a href="#etaoin.api/with-resp" class="toc-entry-anchor">with-resp</a>
+      <a href="#etaoin.api/with-safari" class="toc-entry-anchor">with-safari</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
-      <a href="#etaoin.api/with-safari" class="toc-entry-anchor">with-safari</a>
+      <a href="#etaoin.api/with-script-timeout" class="toc-entry-anchor">with-script-timeout</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.api/with-wait" class="toc-entry-anchor">with-wait</a>
@@ -472,6 +583,7 @@ Chrome:
 <a href="https://github.com/bayandin/chromedriver/">https://github.com/bayandin/chromedriver/</a>
 
 Firefox (Geckodriver):
+<a href="https://github.com/mozilla/geckodriver">https://github.com/mozilla/geckodriver</a>
 <a href="https://github.com/mozilla/webdriver-rust/">https://github.com/mozilla/webdriver-rust/</a>
 
 Phantom.js (Ghostdriver)
@@ -496,7 +608,7 @@ Phantom.js (Ghostdriver)
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1363">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1611">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -507,7 +619,7 @@ Phantom.js (Ghostdriver)
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1263">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1511">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -519,7 +631,7 @@ Phantom.js (Ghostdriver)
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L375">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L358">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -539,7 +651,31 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L2180">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2657">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/child">child</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (child driver ancestor-el q)
+</pre>
+    <pre id="var-docstr">Finds a single element under given root element.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L525">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/children">children</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (children driver ancestor-el q)
+</pre>
+    <pre id="var-docstr">Finds multiple elements under given root element.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L531">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -550,7 +686,19 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L2208">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2685">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/chrome-headless">chrome-headless</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (chrome-headless &amp; opt)
+</pre>
+    <pre id="var-docstr">Launches headless Chrome driver. A shortcut for `boot-driver`.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2697">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -562,7 +710,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1328">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1576">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -576,7 +724,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1894">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2159">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -588,7 +736,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1887">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2152">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -596,11 +744,11 @@ Arguments:
     <span id="var-type">function</span><br />
     <pre id="var-usage">Usage: (click driver q)
 </pre>
-    <pre id="var-docstr">Clicks on an element (a link, button, etc).</pre>
+    <pre id="var-docstr">Clicks on an element (a link, a button, etc).</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L701">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L631">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -618,7 +766,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1658">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1899">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -629,7 +777,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L239">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L218">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -655,7 +803,7 @@ See <a href="https://www.w3.org/TR/webdriver/#capabilities">https://www.w3.org/T
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L2134">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2611">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -667,7 +815,7 @@ See <a href="https://www.w3.org/TR/webdriver/#capabilities">https://www.w3.org/T
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1284">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1532">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -686,7 +834,7 @@ creates an atom without side effects.
 Arguments:
 
 - `type` is a keyword determines what driver to use. The supported
-browsers are `:firefox`, `:chrome`, `:headless`, `:phantom` and `:safari`.
+browsers are `:firefox`, `:chrome`, `:phantom` and `:safari`.
 
 - `opt` is a map with additional options for a driver. The supported
 options are:
@@ -704,7 +852,7 @@ if not passed.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L2049">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2472">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -719,7 +867,7 @@ a long string identifier.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L130">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L122">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -731,7 +879,7 @@ a long string identifier.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1056">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1020">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -743,7 +891,7 @@ a long string identifier.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1063">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1027">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -758,7 +906,7 @@ session from the driver instance. Returns modified driver.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L2161">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2638">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -781,7 +929,7 @@ Returns a port as an integer.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1301">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1549">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -792,7 +940,7 @@ Returns a port as an integer.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1246">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1494">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -805,7 +953,7 @@ multimethods.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L68">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L60">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -822,7 +970,7 @@ Returns true or false.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1366">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1614">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -834,7 +982,19 @@ Returns true or false.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1395">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1641">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/doto-wait">doto-wait</h2>
+    <span id="var-type">macro</span><br />
+    <pre id="var-usage">Usage: (doto-wait n obj &amp; body)
+</pre>
+    <pre id="var-docstr">The same as doto but prepends each form with (wait n) clause.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1732">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -846,13 +1006,13 @@ Returns true or false.</pre>
 
 Note:
 
-the supported browsers are (Headless) Chrome, and Phantom.js.
+the supported browsers are Chrome, and Phantom.js.
 For Firefox and Safari, your may try to simulate it as a `click, wait, click`
 sequence.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L715">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L645">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -884,7 +1044,33 @@ Notes:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L664">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L594">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/el-&gt;ref">el-&gt;ref</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (el-&gt;ref el)
+</pre>
+    <pre id="var-docstr">Turns machinery-wise element ID into an object
+that Javascript use to reference existing DOM element.
+
+The magic constant below is taken from the standard:
+<a href="https://www.w3.org/TR/webdriver/#elements">https://www.w3.org/TR/webdriver/#elements</a>
+
+Passing such an object to `js-execute` automatically expands into a
+DOM node. For example:
+
+;; returns long UUID
+(def el (query driver :button-ok))
+
+;; the first argument will the an Element instance.
+(js-execute driver "arguments[0].scrollIntoView()", (el-&gt;ref el))
+</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1060">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -896,7 +1082,48 @@ Notes:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1416">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1660">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/execute">execute</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (execute {:keys [driver method path data result]})
+</pre>
+    <pre id="var-docstr">Executes an HTTP request to a driver's server. Performs the body
+within result data bound to the `result` clause.
+
+Arguments:
+
+- `driver`: a driver instance,
+
+- `method`: a keyword represents HTTP method, e.g. `:get`, `:post`,
+`:delete`, etc.
+
+- `path`: a vector of strings/keywords represents a server's
+path. For example:
+
+`[:session "aaaa-bbbb-cccc" :element "dddd-eeee" :find]`
+
+will turn into "/session/aaaa-bbbb-cccc/element/dddd-eeee/find".
+
+- `data`: any data sctructure to be sent as JSON body. Put `nil` For
+`GET` requests.
+
+- `result`: a symbol to bind the data from the HTTP response with
+`let` form before executing the body.
+
+Example:
+
+(def driver (firefox))
+(println (execute {:driver driver
+                   :method :get
+                   :path [:session (:session @driver) :element :active])))
+</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L75">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -911,7 +1138,7 @@ clickable and so on.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1353">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1601">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -929,7 +1156,7 @@ joined using "str":
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1826">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2091">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -941,19 +1168,19 @@ joined using "str":
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1814">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2086">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
     <h2 id="etaoin.api/fill-el">fill-el</h2>
-    <span id="var-type">function</span><br />
+    <span id="var-type">multimethod</span><br />
     <pre id="var-usage">Usage: (fill-el driver el text &amp; more)
 </pre>
     <pre id="var-docstr">Fills an element with text by its identifier.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1819">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2047">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -973,7 +1200,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1874">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2139">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -990,7 +1217,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1837">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2102">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1001,7 +1228,19 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L2204">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2681">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/firefox-headless">firefox-headless</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (firefox-headless &amp; opt)
+</pre>
+    <pre id="var-docstr">Launches headless Firefox driver. A shortcut for `boot-driver`.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2702">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1013,7 +1252,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1333">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1581">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1025,7 +1264,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L389">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L374">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1036,7 +1275,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1225">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1477">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1054,7 +1293,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1025">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L989">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1067,16 +1306,17 @@ Arguments:
 Each cookie is a map with structure:
 
 {:name "cookie1",
- :value "test1",
- :path "/",
- :domain "",
- :expiry nil,
- :secure false,
- :httpOnly false}</pre>
+:value "test1",
+:path "/",
+:domain "",
+:expiry nil,
+:secure false,
+:httpOnly false}
+</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1005">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L971">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1108,20 +1348,20 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L841">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L802">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
     <h2 id="etaoin.api/get-element-attrs">get-element-attrs</h2>
     <span id="var-type">function</span><br />
-    <pre id="var-usage">Usage: (get-element-attrs driver q &amp; names)
+    <pre id="var-usage">Usage: (get-element-attrs driver q &amp; attrs)
 </pre>
     <pre id="var-docstr">Returns multiple attributes in batch. The result is a vector of
 corresponding attributes.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L873">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L828">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1142,13 +1382,13 @@ The result is a map with the following keys:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L785">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L713">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
     <h2 id="etaoin.api/get-element-css">get-element-css</h2>
     <span id="var-type">function</span><br />
-    <pre id="var-usage">Usage: (get-element-css driver q name)
+    <pre id="var-usage">Usage: (get-element-css driver q prop)
 </pre>
     <pre id="var-docstr">Returns a CSS property of an element. The property might be both
 own or inherited.
@@ -1174,20 +1414,83 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L893">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L849">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
     <h2 id="etaoin.api/get-element-csss">get-element-csss</h2>
     <span id="var-type">function</span><br />
-    <pre id="var-usage">Usage: (get-element-csss driver q &amp; names)
+    <pre id="var-usage">Usage: (get-element-csss driver q &amp; props)
 </pre>
     <pre id="var-docstr">Returns multiple CSS properties in batch. The result is a vector of
 corresponding properties.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L925">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L876">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/get-element-inner-html">get-element-inner-html</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (get-element-inner-html driver q)
+</pre>
+    <pre id="var-docstr">Returns element's inner HTML.
+
+For element `el` in `&lt;div id="el"&gt;&lt;p class="foo"&gt;hello&lt;/p&gt;&lt;/div&gt;` it will
+be "&lt;p class="foo"&gt;hello&lt;/p&gt;" string.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L896">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/get-element-inner-html-el">get-element-inner-html-el</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (get-element-inner-html-el driver el)
+</pre>
+    <pre id="var-docstr">Returns element's inner text by its identifier.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L889">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/get-element-properties">get-element-properties</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (get-element-properties driver q &amp; props)
+</pre>
+    <pre id="var-docstr">Returns multiple properties in batch. The result is a vector of
+corresponding properties.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L783">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/get-element-property">get-element-property</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (get-element-property driver q name)
+</pre>
+    <pre id="var-docstr">Returns a property of an element (value, etc).
+
+Arguments:
+
+- `driver`: a driver instance,
+
+- `q`: a query term to find an element,
+
+- `name`: either a string or a keyword with a name of a property.
+
+Returns: a string with the attribute value, `nil` if no such
+property for that element.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L767">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1199,7 +1502,7 @@ corresponding properties.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L749">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L678">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1211,7 +1514,7 @@ corresponding properties.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L965">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L916">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1223,7 +1526,7 @@ corresponding properties.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L956">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L909">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1237,7 +1540,7 @@ For `&lt;p class="foo"&gt;hello&lt;/p&gt;` it will be "hello" string.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L979">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L928">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1245,35 +1548,130 @@ For `&lt;p class="foo"&gt;hello&lt;/p&gt;` it will be "hello" string.</pre>
     <span id="var-type">function</span><br />
     <pre id="var-usage">Usage: (get-element-text-el driver el)
 </pre>
-    <pre id="var-docstr">Retuns element's inner text by its identifier.</pre>
+    <pre id="var-docstr">Returns element's inner text by its identifier.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L970">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L921">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
     <h2 id="etaoin.api/get-element-value">get-element-value</h2>
-    <span id="var-type">function</span><br />
+    <span id="var-type">multimethod</span><br />
     <pre id="var-usage">Usage: (get-element-value driver q)
 </pre>
-    <pre id="var-docstr">Returns element's value set with `value` attribute.</pre>
+    <pre id="var-docstr">Returns the current element's value (input text).</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L996">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L947">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
-    <h2 id="etaoin.api/get-element-value-el">get-element-value-el</h2>
+    <h2 id="etaoin.api/get-hash">get-hash</h2>
     <span id="var-type">function</span><br />
-    <pre id="var-usage">Usage: (get-element-value-el driver el)
+    <pre id="var-usage">Usage: (get-hash driver)
 </pre>
-    <pre id="var-docstr">Returns element's value by its identifier.</pre>
+    <pre id="var-docstr">Returns the current hash fragment (nil when not set).</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L987">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1423">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/get-implicit-timeout">get-implicit-timeout</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (get-implicit-timeout driver)
+</pre>
+    <pre id="var-docstr">Returns the current implicit timeout in seconds.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2291">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/get-log-types">get-log-types</h2>
+    <span id="var-type">multimethod</span><br />
+    <pre id="var-usage">Usage: (get-log-types driver)
+</pre>
+    <pre id="var-docstr">Returns a set of log types the browser supports.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1337">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/get-logs">get-logs</h2>
+    <span id="var-type">multimethod</span><br />
+    <pre id="var-usage">Usage: (get-logs driver)
+</pre>
+    <pre id="var-docstr">Returns Javascript log entries. Each log entry is a map
+with the following structure:
+
+{:level :warning,
+ :message "1,2,3,4  anonymous (:1)",
+ :timestamp 1511449388366,
+ :source nil,
+ :datetime #inst "2017-11-23T15:03:08.366-00:00"}
+
+Empirical knowledge about browser differences:
+
+* Chrome:
+- Returns all recorded logs.
+- Clears the logs once they have been read.
+- JS console logs have `:console-api` for `:source` field.
+- Entries about errors will have SEVERE level.
+
+* PhantomJS:
+- Return all recorded logs since the last URL change.
+- Does not clear recorded logs on subsequent invocations.
+- JS console logs have nil for `:source` field.
+- Entries about errors will have WARNING level, as coded here:
+    <a href="https://github.com/detro/ghostdriver/blob/be7ffd9d47c1e76c7bfa1d47cdcde9164fd40db8/src/session.js#L494">https://github.com/detro/ghostdriver/blob/be7ffd9d47c1e76c7bfa1d47cdcde9164fd40db8/src/session.js#L494</a></pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1357">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/get-page-load-timeout">get-page-load-timeout</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (get-page-load-timeout driver)
+</pre>
+    <pre id="var-docstr">Returns the current page load timeout in seconds.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2286">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/get-script-timeout">get-script-timeout</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (get-script-timeout driver)
+</pre>
+    <pre id="var-docstr">Returns the current script timeout in seconds.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2281">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/get-scroll">get-scroll</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (get-scroll driver)
+</pre>
+    <pre id="var-docstr">Returns the current scroll position as a map
+with `:x` and `:y` keys and integer values.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1234">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1285,7 +1683,7 @@ For `&lt;p class="foo"&gt;hello&lt;/p&gt;` it will be "hello" string.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1085">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1049">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1298,7 +1696,7 @@ specific driver.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L121">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L113">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1310,7 +1708,7 @@ specific driver.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L408">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L392">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1322,7 +1720,7 @@ specific driver.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L400">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L385">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1334,7 +1732,7 @@ specific driver.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L179">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L170">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1346,7 +1744,7 @@ specific driver.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L200">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L187">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1359,7 +1757,7 @@ specific driver.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L290">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L268">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1371,7 +1769,7 @@ specific driver.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L268">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L247">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1384,11 +1782,12 @@ specific driver.</pre>
 Example:
 
 (def ff (firefox))
-(go ff "<a href="http://google.com">http://google.com</a>")</pre>
+(go ff "<a href="http://google.com">http://google.com</a>")
+</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L362">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L344">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1400,7 +1799,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1465">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1700">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1412,7 +1811,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1457">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1692">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1423,7 +1822,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1472">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1707">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1434,7 +1833,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1462">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1697">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1443,25 +1842,13 @@ Example:
     <pre id="var-usage">Usage: (has-text? driver text)
        (has-text? driver q text)
 </pre>
-    <pre id="var-docstr">Returns true if text appears anywhere on a page.
-
-When a query expression is passed, tries to find that text
-into the first element found with that term.</pre>
+    <pre id="var-docstr">Returns true if a passed text appears anywhere on a page.
+With a leading query expression, finds a text inside the first
+element that matches the query.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1423">Source</a>
-  </div><div id="var-entry">
-    <br />
-    <hr />
-    <h2 id="etaoin.api/headless">headless</h2>
-    <span id="var-type">var</span><br />
-    <pre id="var-usage"></pre>
-    <pre id="var-docstr">Launches headless Chrome driver. A shortcut for `boot-driver`.</pre>
-    <pre id="var-specs"></pre>
-    
-    
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L2220">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1667">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1469,11 +1856,11 @@ into the first element found with that term.</pre>
     <span id="var-type">function</span><br />
     <pre id="var-usage">Usage: (headless? driver)
 </pre>
-    <pre id="var-docstr">Returns true if a driver is a Headless Chrome instance.</pre>
+    <pre id="var-docstr">Returns true if a driver is run in headless mode (without UI window).</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1348">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1596">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1495,7 +1882,7 @@ Returns true or false.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L808">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L736">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1506,7 +1893,67 @@ Returns true or false.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1406">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1652">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/join-path">join-path</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (join-path p1 p2 &amp; more)
+</pre>
+    <pre id="var-docstr">Joins two and more path components into a single file path OS-wisely.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2380">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/js-async">js-async</h2>
+    <span id="var-type">multimethod</span><br />
+    <pre id="var-usage">Usage: (js-async driver script &amp; args)
+</pre>
+    <pre id="var-docstr">Executes an asynchronous script in the browser and returns the result.
+An asynchronous script is a such one that performs any kind of IO operations,
+say, AJAX request to the server. When running such kind of a script, you cannot
+just use the `return` statement like you do in ordinary scripts. Instead, the
+driver passes a special handler as the last argument that should be called
+to return the final result.
+
+*Note:* calling this function requires the `script` timeout to be set properly,
+meaning non-zero positive value. See `get-script-timeout`, `get-script-timeout`
+and `with-script-timeout` functions/macroses.
+
+Example of a script:
+
+// the `arguments` would be an array of something like:
+// [1, 2, true, ..., &lt;special callback&gt;]
+
+var callback = arguments[arguments.length-1];
+
+// so the main script would look like:
+$.ajax({url: '/some/url', success: function(result) {
+  if (isResultOk(result)) {
+    callback({ok: getProgressData(result)});
+  }
+  else {
+    callback({error: getErrorData(result)});
+  }
+}});
+
+Arguments:
+
+- `driver`: a driver instance,
+
+- `script`: a string with the code to execute.
+
+- `args`: additional arguments for your code. Any data that might be
+serialized into JSON.
+</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1130">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1516,9 +1963,9 @@ Returns true or false.</pre>
 </pre>
     <pre id="var-docstr">Executes Javascript code in browser synchronously.
 
-The code is sent as a string (might be multi-line). Under the hood, a
-browser wraps your code into a function so avoid `function` clause
-at on the top level.
+The code is sent as a string (might be multi-line). Under the hood,
+a browser wraps your code into a function so avoid using `function`
+clause at the top level.
 
 Don't forget to add `return &lt;something&gt;` operator if you are
 interested in the result value.
@@ -1537,7 +1984,8 @@ Arguments:
 
 - `script`: a string with the code to execute.
 
-- `args`: additinal arguments for your code.
+- `args`: additional arguments for your code. Any data that might be
+serialized into JSON.
 
 Example:
 
@@ -1548,7 +1996,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1098">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1080">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1560,7 +2008,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L2044">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2466">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1572,7 +2020,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L249">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L228">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1584,7 +2032,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L613">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L541">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1596,7 +2044,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L625">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L553">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1610,7 +2058,7 @@ or by `x` and `y` offset.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L637">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L565">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1621,7 +2069,7 @@ or by `x` and `y` offset.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L2212">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2689">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1633,120 +2081,61 @@ or by `x` and `y` offset.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1338">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1586">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
     <h2 id="etaoin.api/postmortem-handler">postmortem-handler</h2>
     <span id="var-type">function</span><br />
-    <pre id="var-usage">Usage: (postmortem-handler driver opt)
+    <pre id="var-usage">Usage: (postmortem-handler driver {:keys [dir dir-src dir-img dir-log date-format]})
 </pre>
-    <pre id="var-docstr">Internal postmortem handler that creates files. See
-`with-postmortem` for more info.</pre>
+    <pre id="var-docstr">Internal postmortem handler that creates files.
+See the `with-postmortem`'s docstring below for more info.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1979">Source</a>
-  </div><div id="var-entry">
-    <br />
-    <hr />
-    <h2 id="etaoin.api/q-expand">q-expand</h2>
-    <span id="var-type">function</span><br />
-    <pre id="var-usage">Usage: (q-expand driver q)
-</pre>
-    <pre id="var-docstr">Expands a query expression into a pair of `[locator, term]` values
-to pass them into low-level HTTP API. Throws a Slingshot exception
-in case of unsupported clause.</pre>
-    <pre id="var-specs"></pre>
-    
-    
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L453">Source</a>
-  </div><div id="var-entry">
-    <br />
-    <hr />
-    <h2 id="etaoin.api/q-xpath">q-xpath</h2>
-    <span id="var-type">function</span><br />
-    <pre id="var-usage">Usage: (q-xpath q)
-</pre>
-    <pre id="var-docstr">Turns a map into an XPath clause. The rules are:
-
-- `:tag` value becomes a tag name, otherwise `*` is used;
-
-- `:index` becomes a `[x]` at the end of expression if passed;
-
-- any other key-value pair becomes an attribute filter as follows:
-`{:foo "one" :baz "two"}` =&gt; `"[@foo='one'][@bar='two']"`.
-
-- the final XPath is always relative (started with `.//`) to make it
-work with nested expressions.
-
-Example:
-
-(q-xpath {:tag :a :class :large :index 2 :target :_blank})
-&gt; ".//a[@class='large'][@target='_blank'][2]"</pre>
-    <pre id="var-specs"></pre>
-    
-    
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L420">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2389">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
     <h2 id="etaoin.api/query">query</h2>
     <span id="var-type">function</span><br />
     <pre id="var-usage">Usage: (query driver q)
+       (query driver q &amp; more)
 </pre>
     <pre id="var-docstr">Finds an element on a page.
 
 A query might be:
 
-- a string, so the current browser's locator will be used. Examples:
+- a string with an XPath expression;
+- a keyword `:active` that means to get the current active element;
+- any other keyword which stands for an element's ID attribute;
+- a map with either `:xpath` or `:css` key with a string value
+  of corresponding selector type (XPath or CSS);
+- any other map that will be expanded into XPath term (see README.md);
+- a vector of any expressions mentioned above. In that case, each next
+  term is searched from the previous one.
 
-//div[@id='content'] for XPath,
-div.article for CSS selector
-
-- a keyword `:active` that means the current active element
-
-- any keyword `value` that is converted to XPath `.//*[@id='&lt;value&gt;']`
-
-- a map with either :xpath or :css keys with a string term, e.g:
-{:xpath "//div[@id='content']"} or
-{:css "div.article"}
-
-- a map that will turn into an XPath expression:
-{:tag :div} =&gt; .//div
-{:id :container} =&gt; .//*[@id='container']
-{:tag :a :class :external :index 2} =&gt; .//a[@class='external'][2]
-
-- a vector of any clause mentioned above. In that case,
-every next term is searched inside the previous one. Example:
-[{:id :footer} {:tag :a}] =&gt; finds the first hyperlink
-inside a div with id 'footer'.
-
-Returns an element's unique identifier as a string.</pre>
+Returns a element's unique identifier.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L536">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L470">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
     <h2 id="etaoin.api/query-all">query-all</h2>
     <span id="var-type">function</span><br />
     <pre id="var-usage">Usage: (query-all driver q)
+       (query-all driver q &amp; more)
 </pre>
-    <pre id="var-docstr">Finds multiple elements by a single query.
-
-If a query is a vector, it finds the first element for all the terms
-except the last one, then all the elements for the last term from
-the element got from the previous terms.
-
-See `query` function for more info.
-
+    <pre id="var-docstr">Finds multiple elements on a page.
+See `query` function for incoming params.
 Returns a vector of element identifiers.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L584">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L505">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1758,19 +2147,7 @@ Returns a vector of element identifiers.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L2196">Source</a>
-  </div><div id="var-entry">
-    <br />
-    <hr />
-    <h2 id="etaoin.api/random-port">random-port</h2>
-    <span id="var-type">function</span><br />
-    <pre id="var-usage">Usage: (random-port)
-</pre>
-    <pre id="var-docstr">Returns a random port skiping the first 1024 ones.</pre>
-    <pre id="var-specs"></pre>
-    
-    
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L58">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2673">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1782,13 +2159,13 @@ Returns a vector of element identifiers.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L382">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L365">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
     <h2 id="etaoin.api/run-driver">run-driver</h2>
     <span id="var-type">function</span><br />
-    <pre id="var-usage">Usage: (run-driver driver &amp; [{:keys [path args env size]}])
+    <pre id="var-usage">Usage: (run-driver driver &amp; [{:keys [env url args size prefs profile headless log-level args-driver path-driver download-dir path-browser load-strategy]}])
 </pre>
     <pre id="var-docstr">Runs a driver process locally.
 
@@ -1802,21 +2179,49 @@ Arguments:
 
 - `opt` is an optional map with the following possible parameters:
 
--- `:path` is a string path to a binary file to
-launch. `default` global map is used for lookup when not
-passed.
+-- `:path-driver` is a string path to the driver's binary file. When
+not passed, it is taken from defaults.
 
--- `:args` is a vector of additional arguments passed when starting
-a process.
+-- `:path-browser` is a string path to the browser's binary
+file. When not passed, the driver discovers it by its own.
 
--- `:env` is a map with system ENV variables. Keys are turned to
-upper-case strings.
+-- `:size` is a vector of two integers specifying initial window size.
 
--- `size` is a vector of two integers specifying initial window size.</pre>
+-- `:url` is a string with the default URL opened by default (FF only for now).
+
+-- `:log-level` a keyword to set browser's log level. Used when fetching
+browser's logs. Possible values are: `:off`, `:debug`, `:warn`, `:info`,
+`:error`, `:all`. When not passed, `:all` is set.
+
+-- `:profile` is a string path that points on profile folder.
+See the `Setting browser profile` section in `README.md` to know
+how to do it properly.
+
+-- `:load-strategy` is a string or keyword with specifying
+what strategy to use when load a page. Might be `:none`, `:eager`
+or :`normal` (default). To not wait the page being loaded completely,
+specify `:none`. The `:eager` option is still under development
+in most of the browser.
+
+-- `headless` is a boolean flag to run the browser in headless mode
+(i.e. without GUI window). Useful when running tests on CI servers
+rather than local machine. Currently, only FF and Chrome support headless mode.
+Phantom.js is headless by its nature.
+
+-- `:args` is a vector of additional command line arguments
+to the browser's process.
+
+-- `:prefs` is a map of browser-specific preferences.
+
+-- `:args-driver` is a vector of additional arguments to the
+driver's process.
+
+-- `:env` is a map with system ENV variables. Keys are turned into
+upper-case strings.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L2092">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2516">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1828,7 +2233,7 @@ upper-case strings.
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1295">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1543">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1839,7 +2244,7 @@ upper-case strings.
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L2216">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2693">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1851,26 +2256,163 @@ upper-case strings.
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1343">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1591">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
     <h2 id="etaoin.api/screenshot">screenshot</h2>
     <span id="var-type">multimethod</span><br />
-    <pre id="var-usage">Usage: (screenshot driver filename)
+    <pre id="var-usage">Usage: (screenshot driver file)
 </pre>
     <pre id="var-docstr">Takes a screenshot of the current page. Saves it in a *.png file on disk.
-Rises exception if a screenshot is empty.
+Rises exception if a screenshot was empty.
 
 Arguments:
 
 - `driver`: driver instance,
 
-- `filename`: full path to a file.</pre>
+- `file`: either a path to a file or a native `java.io.File` instance.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1951">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2328">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/scroll">scroll</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (scroll driver x y)
+       (scroll driver {:keys [x y]})
+</pre>
+    <pre id="var-docstr">Scrolls the window into absolute position (jumps to exact place).</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1204">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/scroll-bottom">scroll-bottom</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (scroll-bottom driver)
+</pre>
+    <pre id="var-docstr">Scrolls to bottom of the page keeping current horizontal position.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1246">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/scroll-by">scroll-by</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (scroll-by driver x y)
+       (scroll-by driver {:keys [x y]})
+</pre>
+    <pre id="var-docstr">Scrolls the window by offset (relatively the current position).</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1211">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/scroll-down">scroll-down</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (scroll-down driver offset)
+       (scroll-down driver)
+</pre>
+    <pre id="var-docstr">Scrolls the page down by specific number of pixels.
+The `scroll-offset` constant is used when not passed.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1264">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/scroll-left">scroll-left</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (scroll-left driver offset)
+       (scroll-left driver)
+</pre>
+    <pre id="var-docstr">Scrolls the page left by specific number of pixels.
+The `scroll-offset` constant is used when not passed.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1272">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/scroll-offset">scroll-offset</h2>
+    <span id="var-type">var</span><br />
+    <pre id="var-usage"></pre>
+    <pre id="var-docstr">Default scroll offset in pixels.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1253">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/scroll-query">scroll-query</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (scroll-query driver q)
+       (scroll-query driver q param)
+</pre>
+    <pre id="var-docstr">Scrolls to the first element found with a query.
+
+Invokes element's `.scrollIntoView()` method. Accepts extra `param`
+argument that might be either boolean or object for more control.
+
+See this page for details:
+<a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView">https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView</a>
+</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1218">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/scroll-right">scroll-right</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (scroll-right driver offset)
+       (scroll-right driver)
+</pre>
+    <pre id="var-docstr">Scrolls the page right by specific number of pixels.
+The `scroll-offset` constant is used when not passed.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1280">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/scroll-top">scroll-top</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (scroll-top driver)
+</pre>
+    <pre id="var-docstr">Scrolls to top of the page keeping current horizontal position.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1240">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/scroll-up">scroll-up</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (scroll-up driver offset)
+       (scroll-up driver)
+</pre>
+    <pre id="var-docstr">Scrolls the page up by specific number of pixels.
+The `scroll-offset` constant is used when not passed.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1256">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1885,11 +2427,62 @@ Arguments:
 - `driver`: a driver instance,
 
 - `cookie`: a map with structure described in `get-cookies`. At
-least `:name` and `:value` fields should be populated.</pre>
+least `:name` and `:value` fields should be populated.
+</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1040">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1004">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/set-hash">set-hash</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (set-hash driver hash)
+</pre>
+    <pre id="var-docstr">Sets a new hash fragment for the current page.
+Don't include the leading # symbol. Useful when navigating
+on single page applications.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1414">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/set-implicit-timeout">set-implicit-timeout</h2>
+    <span id="var-type">multimethod</span><br />
+    <pre id="var-usage">Usage: (set-implicit-timeout driver sec)
+</pre>
+    <pre id="var-docstr">Sets timeout that is used when finding elements on the page.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2259">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/set-page-load-timeout">set-page-load-timeout</h2>
+    <span id="var-type">multimethod</span><br />
+    <pre id="var-usage">Usage: (set-page-load-timeout driver sec)
+</pre>
+    <pre id="var-docstr">Sets timeout for loading pages.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2244">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/set-script-timeout">set-script-timeout</h2>
+    <span id="var-type">multimethod</span><br />
+    <pre id="var-usage">Usage: (set-script-timeout driver sec)
+</pre>
+    <pre id="var-docstr">Sets timeout for executing JS sctipts.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2234">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1903,7 +2496,7 @@ guaranteed.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L350">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L332">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1916,7 +2509,7 @@ guaranteed.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L328">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L307">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1929,7 +2522,7 @@ instance. Returns a modified driver.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L2172">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2649">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1941,7 +2534,79 @@ instance. Returns a modified driver.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1938">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2203">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/supports-logs?">supports-logs?</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (supports-logs? driver)
+</pre>
+    <pre id="var-docstr">Checks whether a driver supports getting console logs.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1395">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/switch-frame">switch-frame</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (switch-frame driver q)
+</pre>
+    <pre id="var-docstr">Switches to an (i)frame quering the page for it.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1300">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/switch-frame*">switch-frame*</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (switch-frame* driver id)
+</pre>
+    <pre id="var-docstr">Switches to an (i)frame by its index or an element reference.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1292">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/switch-frame-first">switch-frame-first</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (switch-frame-first driver)
+</pre>
+    <pre id="var-docstr">Switches to the first (i)frame.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1306">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/switch-frame-parent">switch-frame-parent</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (switch-frame-parent driver)
+</pre>
+    <pre id="var-docstr">Switches to the parent of the current (i)frame.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1311">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/switch-frame-top">switch-frame-top</h2>
+    <span id="var-type">function</span><br />
+    <pre id="var-usage">Usage: (switch-frame-top driver)
+</pre>
+    <pre id="var-docstr">Switches to the most top of the page.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1318">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1953,7 +2618,7 @@ instance. Returns a modified driver.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L220">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L205">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1973,7 +2638,7 @@ to the input.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1906">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2171">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1985,7 +2650,7 @@ to the input.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1400">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1646">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -1998,7 +2663,7 @@ to the input.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1482">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1717">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2016,7 +2681,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1544">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1785">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2034,7 +2699,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1596">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1837">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2052,7 +2717,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1584">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1825">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2070,7 +2735,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1532">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1773">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2088,7 +2753,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1608">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1849">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2107,7 +2772,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1636">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1877">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2126,7 +2791,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1620">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1861">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2144,7 +2809,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1572">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1813">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2166,7 +2831,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1498">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1738">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2184,7 +2849,7 @@ Arguments:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1558">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1799">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2202,7 +2867,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1763">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2008">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2214,7 +2879,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1780">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2025">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2222,11 +2887,11 @@ Example:
     <span id="var-type">macro</span><br />
     <pre id="var-usage">Usage: (when-headless driver &amp; body)
 </pre>
-    <pre id="var-docstr">Executes the body only if the driver is headless Chrome.</pre>
+    <pre id="var-docstr">Executes the body only if the driver is run in headless mode.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1790">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2035">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2238,7 +2903,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1732">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1977">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2250,7 +2915,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1742">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1987">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2258,11 +2923,11 @@ Example:
     <span id="var-type">macro</span><br />
     <pre id="var-usage">Usage: (when-not-headless driver &amp; body)
 </pre>
-    <pre id="var-docstr">Executes the body only if a browser is NOT headless Chrome.</pre>
+    <pre id="var-docstr">Executes the body only if a browser is NOT run in headless mode.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1752">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1997">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2274,7 +2939,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1737">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1982">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2286,7 +2951,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1747">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1992">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2298,7 +2963,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1775">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2020">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2310,7 +2975,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1757">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2002">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2322,7 +2987,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1785">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2030">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2335,7 +3000,20 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L2261">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2744">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/with-chrome-headless">with-chrome-headless</h2>
+    <span id="var-type">macro</span><br />
+    <pre id="var-usage">Usage: (with-chrome-headless opt bind &amp; body)
+</pre>
+    <pre id="var-docstr">Performs the body with headless Chrome session. A shortcut for
+`with-driver`.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2765">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2366,7 +3044,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L2224">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2707">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2379,20 +3057,33 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L2254">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2737">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
-    <h2 id="etaoin.api/with-headless">with-headless</h2>
+    <h2 id="etaoin.api/with-firefox-headless">with-firefox-headless</h2>
     <span id="var-type">macro</span><br />
-    <pre id="var-usage">Usage: (with-headless opt bind &amp; body)
+    <pre id="var-usage">Usage: (with-firefox-headless opt bind &amp; body)
 </pre>
-    <pre id="var-docstr">Performs the body with headless Chrome session. A shortcut for
+    <pre id="var-docstr">Performs the body with headless Firefox session. A shortcut for
 `with-driver`.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L2282">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2772">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/with-frame">with-frame</h2>
+    <span id="var-type">macro</span><br />
+    <pre id="var-usage">Usage: (with-frame driver q &amp; body)
+</pre>
+    <pre id="var-docstr">Switches to the (i)frame temporary while executing the body
+returning the result of the last expression.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1323">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2404,7 +3095,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L654">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L584">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2417,7 +3108,7 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L2268">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2751">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2426,8 +3117,13 @@ Example:
     <pre id="var-usage">Usage: (with-postmortem driver opt &amp; body)
 </pre>
     <pre id="var-docstr">Wraps the body with postmortem handler. If any error occurs,
-it will save a screenshot and the page's source code on disk before
-rising an exception so it could help you to discover what happened.
+it will save a screenshot, the page's source code and console logs
+(if supported) on disk before rising an exception. Having them
+could help you to discover what happened.
+
+Note: do not use it in test's fixtures. The standard `clojure.test`
+framework has its own way of handling exceptions, so wrapping a fixture
+with `(with-postmortem...)` would be in vain.
 
 Arguments:
 
@@ -2435,8 +3131,8 @@ Arguments:
 
 - `opt`: a map of options, where:
 
--- `:dir` path to a directory where to store both `.png` and `.html`
-files. Might not exist, will be created otherwise.
+-- `:dir` path to a directory where to store artifacts by default.
+When not passed, the current working directory (`pwd`) is used.
 
 -- `:dir-img`: path to a directory where to store `.png`
 files (screenshots). If `nil`, `:dir` value is used.
@@ -2444,54 +3140,16 @@ files (screenshots). If `nil`, `:dir` value is used.
 -- `:dir-src`: path to a directory where to store `.html`
 files (page source). If `nil`, `:dir` value is used.
 
+-- `:dir-log`: path to a directory where to store `.json`
+files with console logs. If `nil`, `:dir` value is used.
+
 -- `:date-format`: a string represents date(time) pattern to make
 filenames unique. Default is "yyyy-MM-dd-hh-mm-ss". See Oracle
 Java `SimpleDateFormat` class manual for more patterns.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L2010">Source</a>
-  </div><div id="var-entry">
-    <br />
-    <hr />
-    <h2 id="etaoin.api/with-resp">with-resp</h2>
-    <span id="var-type">macro</span><br />
-    <pre id="var-usage">Usage: (with-resp driver method path data result &amp; body)
-</pre>
-    <pre id="var-docstr">Executes an HTTP request to a driver's server. Performs the body
-within result data bound to the `result` clause.
-
-Arguments:
-
-- `driver`: a driver instance,
-
-- `method`: a keyword represents HTTP method, e.g. `:get`, `:post`,
-`:delete`, etc.
-
-- `path`: a vector of strings/keywords represents a server's
-path. For example:
-
-`[:session "aaaa-bbbb-cccc" :element "dddd-eeee" :find]`
-
-will turn into "/session/aaaa-bbbb-cccc/element/dddd-eeee/find".
-
-- `data`: any data sctructure to be sent as JSON body. Put `nil` For
-`GET` requests.
-
-- `result`: a symbol to bind the data from the HTTP response with
-`let` form before executing the body.
-
-Example:
-
-(def driver (firefox))
-(with-resp driver :get
-  [:session (:session @driver) :element :active]
-  nil resp
-  (print resp))</pre>
-    <pre id="var-specs"></pre>
-    
-    
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L78">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2424">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2504,7 +3162,20 @@ Example:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L2275">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2758">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.api/with-script-timeout">with-script-timeout</h2>
+    <span id="var-type">macro</span><br />
+    <pre id="var-usage">Usage: (with-script-timeout driver sec &amp; body)
+</pre>
+    <pre id="var-docstr">Performs the body setting the script timeout temporary.
+Useful for async JS scripts.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L2296">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -2519,7 +3190,7 @@ to re-render the content.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/api.clj#L1489">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/api.clj#L1724">Source</a>
   </div>
 </div>
 
@@ -2530,7 +3201,7 @@ to re-render the content.</pre>
           </div>
 	</div>
 	<div id="foot">
-	  <div id="copyright" style="text-align: center;">2017 Ivan Grishaev</div>
+	  <div id="copyright" style="text-align: center;">2018 Ivan Grishaev</div>
 	</div>
       </div>
       <div id="DesignedBy">Logo &amp; site design by <a href="http://www.tomhickey.com" title="Visit Tom Hickey's website.">Tom Hickey</a>.<br />

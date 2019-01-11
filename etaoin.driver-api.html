@@ -33,7 +33,7 @@ namespace.
     <div class="NamespaceTOC">
       <span class="toc-header">Namespaces</span>
       <ul id="left-sidebar-list">
-        <li><a class="wiki_link" href="etaoin.api-api.html">etaoin.api</a></li><li><a class="wiki_link" href="etaoin.client-api.html">etaoin.client</a></li><li><a class="wiki_link" href="etaoin.driver-api.html">etaoin.driver</a></li><li><a class="wiki_link" href="etaoin.keys-api.html">etaoin.keys</a></li><li><a class="wiki_link" href="etaoin.proc-api.html">etaoin.proc</a></li><li><a class="wiki_link" href="etaoin.util-api.html">etaoin.util</a></li>
+        <li><a class="wiki_link" href="etaoin.api-api.html">etaoin.api</a></li><li><a class="wiki_link" href="etaoin.client-api.html">etaoin.client</a></li><li><a class="wiki_link" href="etaoin.driver-api.html">etaoin.driver</a></li><li><a class="wiki_link" href="etaoin.keys-api.html">etaoin.keys</a></li><li><a class="wiki_link" href="etaoin.legacy-api.html">etaoin.legacy</a></li><li><a class="wiki_link" href="etaoin.proc-api.html">etaoin.proc</a></li><li><a class="wiki_link" href="etaoin.query-api.html">etaoin.query</a></li><li><a class="wiki_link" href="etaoin.util-api.html">etaoin.util</a></li><li><a class="wiki_link" href="etaoin.xpath-api.html">etaoin.xpath</a></li>
       </ul>
     </div>
     
@@ -59,10 +59,7 @@ namespace.
   </div><div class="toc-section" style="margin-left: 1em;">
     <a style="margin-top: 3px;" href="#var-section">Vars and Functions</a>
     <div class="toc-entry" style="margin-left: 1em;">
-      <a href="#etaoin.driver/prepend" class="toc-entry-anchor">prepend</a>
-      
-    </div><div class="toc-entry" style="margin-left: 1em;">
-      <a href="#etaoin.driver/set-args" class="toc-entry-anchor">set-args</a>
+      <a href="#etaoin.driver/set-browser-log-level" class="toc-entry-anchor">set-browser-log-level</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.driver/set-options-args" class="toc-entry-anchor">set-options-args</a>
@@ -72,6 +69,9 @@ namespace.
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.driver/set-port" class="toc-entry-anchor">set-port</a>
+      
+    </div><div class="toc-entry" style="margin-left: 1em;">
+      <a href="#etaoin.driver/set-url" class="toc-entry-anchor">set-url</a>
       
     </div><div class="toc-entry" style="margin-left: 1em;">
       <a href="#etaoin.driver/set-window-size" class="toc-entry-anchor">set-window-size</a>
@@ -97,8 +97,34 @@ Note: the functions below take not an atom but pure map
 to be used with swap!. Our further goal is to reduce atom usage
 everywhere it is possible.
 
+Links for development:
+
 Firefox command line flags:
-/Applications/Firefox.app/Contents/MacOS/firefox-bin --help</pre>
+/Applications/Firefox.app/Contents/MacOS/firefox-bin --help
+
+Chrome binary path:
+/Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+
+Chrome CLI args:
+<a href="https://peter.sh/experiments/chromium-command-line-switches/">https://peter.sh/experiments/chromium-command-line-switches/</a>
+
+Chrome capabilities:
+<a href="https://sites.google.com/a/chromium.org/chromedriver/capabilities">https://sites.google.com/a/chromium.org/chromedriver/capabilities</a>
+
+Firefox capabilities:
+<a href="https://github.com/mozilla/geckodriver/#firefox-capabilities">https://github.com/mozilla/geckodriver/#firefox-capabilities</a>
+
+Firefox profiles:
+<a href="https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data">https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data</a>
+
+Safari endpoints
+<a href="https://developer.apple.com/library/content/documentation/NetworkingInternetWeb/Conceptual/WebDriverEndpointDoc/Commands/Commands.html">https://developer.apple.com/library/content/documentation/NetworkingInternetWeb/Conceptual/WebDriverEndpointDoc/Commands/Commands.html</a>
+
+JSON Wire protocol (obsolete)
+<a href="https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol">https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol</a>
+
+Selenium Python source code for Firefox
+<a href="https://github.com/SeleniumHQ/selenium/blob/master/py/selenium/webdriver/firefox/options.py">https://github.com/SeleniumHQ/selenium/blob/master/py/selenium/webdriver/firefox/options.py</a></pre>
 
 
 <br />
@@ -111,27 +137,15 @@ Firefox command line flags:
   <div id="var-entry">
     <br />
     <hr />
-    <h2 id="etaoin.driver/prepend">prepend</h2>
-    <span id="var-type">function</span><br />
-    <pre id="var-usage">Usage: (prepend seq x)
+    <h2 id="etaoin.driver/set-browser-log-level">set-browser-log-level</h2>
+    <span id="var-type">multimethod</span><br />
+    <pre id="var-usage">Usage: (set-browser-log-level driver binary)
 </pre>
-    <pre id="var-docstr">Puts an element into a seq's head returning a new lazy seq.</pre>
+    <pre id="var-docstr">Sets browser logging level.</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/driver.clj#L19">Source</a>
-  </div><div id="var-entry">
-    <br />
-    <hr />
-    <h2 id="etaoin.driver/set-args">set-args</h2>
-    <span id="var-type">function</span><br />
-    <pre id="var-usage">Usage: (set-args driver args)
-</pre>
-    <pre id="var-docstr">Sets browser's command line arguments.</pre>
-    <pre id="var-specs"></pre>
-    
-    
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/driver.clj#L24">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/driver.clj#L387">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -139,11 +153,11 @@ Firefox command line flags:
     <span id="var-type">function</span><br />
     <pre id="var-usage">Usage: (set-options-args driver args)
 </pre>
-    <pre id="var-docstr">Adds command line arguments for the window initial size.</pre>
+    <pre id="var-docstr">Adds command line arguments for a browser binary (not a driver).</pre>
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/driver.clj#L101">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/driver.clj#L130">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -155,7 +169,7 @@ Firefox command line flags:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/driver.clj#L29">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/driver.clj#L53">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -167,7 +181,19 @@ Firefox command line flags:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/driver.clj#L38">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/driver.clj#L70">Source</a>
+  </div><div id="var-entry">
+    <br />
+    <hr />
+    <h2 id="etaoin.driver/set-url">set-url</h2>
+    <span id="var-type">multimethod</span><br />
+    <pre id="var-usage">Usage: (set-url driver url)
+</pre>
+    <pre id="var-docstr">Sets the default URL that the browser should open by default.</pre>
+    <pre id="var-specs"></pre>
+    
+    
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/driver.clj#L201">Source</a>
   </div><div id="var-entry">
     <br />
     <hr />
@@ -179,7 +205,7 @@ Firefox command line flags:
     <pre id="var-specs"></pre>
     
     
-    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/b0d7f514b8fa29357915f8f7acd643cdb86d749a/src/etaoin/driver.clj#L108">Source</a>
+    <a id="var-source" href="https://github.com/igrishaev/etaoin/blob/6d25e75bb215666cbe63f2091aaf04089b660497/src/etaoin/driver.clj#L176">Source</a>
   </div>
 </div>
 
@@ -190,7 +216,7 @@ Firefox command line flags:
           </div>
 	</div>
 	<div id="foot">
-	  <div id="copyright" style="text-align: center;">2017 Ivan Grishaev</div>
+	  <div id="copyright" style="text-align: center;">2018 Ivan Grishaev</div>
 	</div>
       </div>
       <div id="DesignedBy">Logo &amp; site design by <a href="http://www.tomhickey.com" title="Visit Tom Hickey's website.">Tom Hickey</a>.<br />
