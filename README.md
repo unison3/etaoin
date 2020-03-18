@@ -292,7 +292,7 @@ Examples:
 
 ### Vector syntax for querying
 
-A query might be a vector that consists from any expressions mentioned above. In
+A query might be a vector that consists of any expressions mentioned above. In
 such a query, every next term searches from a previous one recursively.
 
 A simple example:
